@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-65:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

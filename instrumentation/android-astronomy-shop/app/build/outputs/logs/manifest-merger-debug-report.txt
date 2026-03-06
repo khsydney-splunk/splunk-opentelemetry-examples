@@ -1,0 +1,836 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.databinding:viewbinding:9.0.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/47d594791a18870f00bc33f7d29f6ea6/transformed/viewbinding-9.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:splunk-otel-android:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/1597238725a9c3575a3d4faf4e5f8bd6/transformed/splunk-otel-android-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:rum-integration-customtracking:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4ec9fa39e007e17895384667820b1de9/transformed/rum-integration-customtracking-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:rum-integration-webview:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/ff0cd5fa5a41ebe452ca4a0464f2baf7/transformed/rum-integration-webview-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-agent-api:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/43c2d4e012acd6e994c701cd20f89a85/transformed/rum-integration-agent-api-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-integration-agent-internal:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/5494ac950b5b469a287f7f5983e0bfbf/transformed/rum-integration-agent-internal-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:rum-integration-okhttp3-common:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a06c2a389209b6686ced6259d970f28e/transformed/rum-integration-okhttp3-common-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:2:1-19:12
+MERGED from [com.splunk:rum-common-storage:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/b52d42a0e64bac32b739e94daaf6647b/transformed/rum-common-storage-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.splunk:rum-common-utils:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/ec370de0d1c6cdec7e3530c716a170f5/transformed/rum-common-utils-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:2:1-24:12
+MERGED from [com.splunk.android:sr-common-job:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/97bb62e399944ee2aa5468e21ad77bc0/transformed/sr-common-job-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-common-storage:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ea052201eaaeaf30adeeec038e1183d/transformed/sr-common-storage-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk:rum-integration-agent-common:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/2e756d3e029e98ca16940b8cba59b0c8/transformed/rum-integration-agent-common-2.1.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-frame-capturer:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ce184cd7a881b9e7c2d4c133d5acd57/transformed/sr-instrumentation-session-recording-frame-capturer-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-interactions:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/d082dc323a8dfaba2722204a8040fcc4/transformed/sr-instrumentation-session-recording-interactions-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-common-http:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/26ebed5a9244dad1954d5fa6787c9efa/transformed/sr-common-http-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-screenshot:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/3908d5d2fabedeb33e095d60430a3554/transformed/sr-instrumentation-session-recording-screenshot-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-wireframe:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/a1c5af92801782a791f3482b067e77d6/transformed/sr-instrumentation-session-recording-wireframe-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-bridge:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/b99d01f7dd44e6d9c4b7d94a1ce65345/transformed/sr-bridge-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-common-utils:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/e904ca7a317be5ba68228fd10e18f3b6/transformed/sr-common-utils-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-common-encoder:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/dd2e48e5dffb3508d169d644dae8a0ac/transformed/sr-common-encoder-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-common-logger:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/b3e873ff5ce1c93799e59c8404aa1450/transformed/sr-common-logger-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [com.splunk.android:sr-common-id:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/377a62d5eeee40215b911c3e38e82bbf/transformed/sr-common-id-1.0.27/AndroidManifest.xml:2:1-9:12
+MERGED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:2:1-11:12
+MERGED from [io.opentelemetry.android.instrumentation:anr:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/63ab16b73f05a6b65930495fa20c9915/transformed/anr-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [io.opentelemetry.android.instrumentation:crash:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/db1617ebc167cf50fd4d383a40578290/transformed/crash-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [io.opentelemetry.android.instrumentation:network:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/983afc688507743a958808e82707d5dd/transformed/network-0.11.0-alpha/AndroidManifest.xml:2:1-9:12
+MERGED from [io.opentelemetry.android.instrumentation:slowrendering:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/b0aee75ab72f31791e4d1e49bbb046af/transformed/slowrendering-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [io.opentelemetry.android.instrumentation:httpurlconnection-library:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c931b229110faaf5c1809ee0a6bced54/transformed/httpurlconnection-library-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [io.opentelemetry.android.instrumentation:okhttp3-library:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/a65109854fdfa7cec3a71d1b50b3552c/transformed/okhttp3-library-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [io.opentelemetry.android.instrumentation:android-instrumentation:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/6cb11c0b4abb861234b0691263ae272e/transformed/android-instrumentation-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/bb5b3180e04d38d930620908c49c72af/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/19a0d3b5cf4932a775ac8c265a8bf7ef/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/681ac713ac3beb20ca6ac68fa5e40773/transformed/navigation-fragment-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c1b4b7e4ddf75253dcf3bce341b33ee8/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/bce993be5c2915aa3e3621a443be23c5/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/f65c311b471868b7529d3f59606bdcab/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/4a86c81514cfa7139b9dea6a40a13315/transformed/navigation-ui-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/db4551a6b6f59936b8ef884cf114481a/transformed/navigation-ui-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nkim2/.gradle/caches/9.1.0/transforms/6ee1ded93cbff7852f06d8c1b21dee27/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/5d53b7b1898090a3ed8b659b09f487c2/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/dfd5ea17c549d832ee2152db253b14b6/transformed/preference-ktx-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/d884ebc5a7eab80de86e6e74c2bd94f6/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/6fadc802d226fb0fb654fc769aef39f8/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/afd92d9dbaabfce12a513a794fd0a315/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/e5ff10ab8b3fe6551b433ac6be68c8a8/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/nkim2/.gradle/caches/9.1.0/transforms/21b928cea6ae67bcff8e804b04f1dc49/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/c4178303eb5c89e8c98738adaea7377e/transformed/play-services-location-21.3.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bcb085447cf9f10f1962aa04a3f6619/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/5df0a827e6a75dc4b14c72d19ee74663/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/c15d9e26cfe4f8a6ad302397fbed5d3d/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/d49974e43c0ef18af3ee68363b1d134a/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/a113f92b0766c8c66443212d91903d8a/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/6fa4ce5ce17189b20e3ce9229a7ce7bf/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/1fd744198a2a4bd34a8d3c0ca45a371d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e3a54aeba19cdcb8f06a3b0d1f954836/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/6a9a0010f640c0eb0f1aba185874d6e8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2529f987a0f38551ca8d5028c09ae5e3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/12ca411b61d814f6401aedb2debe2d54/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/77468d22e72f70a272519bf8238fefad/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/10c652619b7d4c208560ae048f76ba6b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/5c142d25ea2bc15418cfc09aff72afca/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/b8e46b93d9521188751dc997b8176900/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2afb0fae417790ae8301cf81e03e4859/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/6936e305036722ffed3b0f0bb4d202e9/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/8c856e0708483e19ad591713f3d75898/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.opentelemetry.android:common:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/48c74ab5db11d701530f4e6f3aa3dfbc/transformed/common-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/215ca7e947839fc609ce8aee65643191/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/954bddbf7157b25c66501157300def8a/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/563666a540c8af78c7c3293de9d1b435/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/5dc7ee5202de39a2294d8ce97d284002/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/045be08b8b1c462e9a51541c6c15891a/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa8ce40d6fd1d6b16fa03e0bb9b747de/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/1cdce1ffa8de45a0ddbceb144de6646f/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/88765bbcf0b8724696591560c9ed16ff/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/00aaafb44d5619572bd6439bab8d8c57/transformed/lifecycle-livedata-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/46a53ee551a5df3e5994c03ebc45cf98/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/516a6a86cd2a5610d534181b0175f624/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/286e6b9ae63da4087e0b2bf383ffd976/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a3ab44e8bfb753023680207cd938781/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/b0b7f5cdb1b73a02dec8432881b91590/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/63c67a17d98c2f24e746950877ea587e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/bc2b3d4ddc992053f4039d2229d75525/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/d858bfe4b4fa6409c61dc82246d44282/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.opentelemetry.android:session:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/1f7f7048bdefee7a07da483940f6cefc/transformed/session-0.11.0-alpha/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f429ba69c47f149b008509783dcc803/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0a3593938924ff61a8967ac77137ed7d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e017708deaee116361e56f21894300d8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2c9f1ec491115698f3c1fad34798bc14/transformed/gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/nkim2/.gradle/caches/9.1.0/transforms/50e33d6faf1b1b4436679cd7df49ae33/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bc210055d252b971d82a872d1a63840/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/288c34a5a44f65a4fd33ef8fd28d2ae6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/08ec95d5edd812c9c79d8481c5b9db4c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9688f5bf0af211bef448e1cd5456cca/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/15d9e5295b3ba60ee3626e5f1ad00008/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/51b6bdd08b6f2fd6935f8ac6e5000e72/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/aa51f350b74ccab5bffa6a635ae4b6f3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/2085792d35b4c1544538376c4255714f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/5426accd544d2907a1ccb9a429188b95/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:9:5-67
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:9:5-67
+MERGED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:8:5-67
+MERGED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:8:5-67
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:8:5-67
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:8:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:10:5-79
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:10:5-79
+MERGED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:7:5-79
+MERGED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:7:5-79
+MERGED from [io.opentelemetry.android.instrumentation:network:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/983afc688507743a958808e82707d5dd/transformed/network-0.11.0-alpha/AndroidManifest.xml:7:5-79
+MERGED from [io.opentelemetry.android.instrumentation:network:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/983afc688507743a958808e82707d5dd/transformed/network-0.11.0-alpha/AndroidManifest.xml:7:5-79
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:7:5-79
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:11:22-73
+application
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:13:5-34:19
+INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:13:5-34:19
+MERGED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:7:5-17:19
+MERGED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:7:5-17:19
+MERGED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:12:5-22:19
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:12:5-22:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nkim2/.gradle/caches/9.1.0/transforms/6ee1ded93cbff7852f06d8c1b21dee27/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nkim2/.gradle/caches/9.1.0/transforms/6ee1ded93cbff7852f06d8c1b21dee27/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/c4178303eb5c89e8c98738adaea7377e/transformed/play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/c4178303eb5c89e8c98738adaea7377e/transformed/play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bcb085447cf9f10f1962aa04a3f6619/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bcb085447cf9f10f1962aa04a3f6619/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/288c34a5a44f65a4fd33ef8fd28d2ae6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/288c34a5a44f65a4fd33ef8fd28d2ae6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/aa51f350b74ccab5bffa6a635ae4b6f3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/aa51f350b74ccab5bffa6a635ae4b6f3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:21:13-39
+	android:label
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:16:13-45
+	android:fullBackupContent
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:19:13-58
+	android:roundIcon
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:20:13-58
+	tools:targetApi
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:23:13-33
+	android:icon
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:15:13-47
+	android:allowBackup
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:17:13-39
+	android:theme
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:22:13-55
+	android:dataExtractionRules
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:18:13-69
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:14:13-40
+activity#com.astronomyshop.app.MainActivity
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:24:9-33:20
+	android:label
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:27:13-45
+	android:exported
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:26:13-36
+	android:theme
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:28:13-55
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:31:27-74
+uses-sdk
+INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:9.0.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/47d594791a18870f00bc33f7d29f6ea6/transformed/viewbinding-9.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:9.0.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/47d594791a18870f00bc33f7d29f6ea6/transformed/viewbinding-9.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:splunk-otel-android:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/1597238725a9c3575a3d4faf4e5f8bd6/transformed/splunk-otel-android-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:splunk-otel-android:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/1597238725a9c3575a3d4faf4e5f8bd6/transformed/splunk-otel-android-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-customtracking:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4ec9fa39e007e17895384667820b1de9/transformed/rum-integration-customtracking-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-customtracking:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4ec9fa39e007e17895384667820b1de9/transformed/rum-integration-customtracking-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-webview:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/ff0cd5fa5a41ebe452ca4a0464f2baf7/transformed/rum-integration-webview-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-webview:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/ff0cd5fa5a41ebe452ca4a0464f2baf7/transformed/rum-integration-webview-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-agent-api:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/43c2d4e012acd6e994c701cd20f89a85/transformed/rum-integration-agent-api-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-agent-api:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/43c2d4e012acd6e994c701cd20f89a85/transformed/rum-integration-agent-api-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-agent-internal:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/5494ac950b5b469a287f7f5983e0bfbf/transformed/rum-integration-agent-internal-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-agent-internal:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/5494ac950b5b469a287f7f5983e0bfbf/transformed/rum-integration-agent-internal-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-okhttp3-common:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a06c2a389209b6686ced6259d970f28e/transformed/rum-integration-okhttp3-common-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-okhttp3-common:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a06c2a389209b6686ced6259d970f28e/transformed/rum-integration-okhttp3-common-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-common-storage:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/b52d42a0e64bac32b739e94daaf6647b/transformed/rum-common-storage-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-common-storage:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/b52d42a0e64bac32b739e94daaf6647b/transformed/rum-common-storage-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-common-utils:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/ec370de0d1c6cdec7e3530c716a170f5/transformed/rum-common-utils-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-common-utils:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/ec370de0d1c6cdec7e3530c716a170f5/transformed/rum-common-utils-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-job:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/97bb62e399944ee2aa5468e21ad77bc0/transformed/sr-common-job-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-job:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/97bb62e399944ee2aa5468e21ad77bc0/transformed/sr-common-job-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-storage:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ea052201eaaeaf30adeeec038e1183d/transformed/sr-common-storage-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-storage:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ea052201eaaeaf30adeeec038e1183d/transformed/sr-common-storage-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk:rum-integration-agent-common:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/2e756d3e029e98ca16940b8cba59b0c8/transformed/rum-integration-agent-common-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk:rum-integration-agent-common:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/2e756d3e029e98ca16940b8cba59b0c8/transformed/rum-integration-agent-common-2.1.5/AndroidManifest.xml:5:5-44
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-frame-capturer:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ce184cd7a881b9e7c2d4c133d5acd57/transformed/sr-instrumentation-session-recording-frame-capturer-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-frame-capturer:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ce184cd7a881b9e7c2d4c133d5acd57/transformed/sr-instrumentation-session-recording-frame-capturer-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-interactions:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/d082dc323a8dfaba2722204a8040fcc4/transformed/sr-instrumentation-session-recording-interactions-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-interactions:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/d082dc323a8dfaba2722204a8040fcc4/transformed/sr-instrumentation-session-recording-interactions-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-http:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/26ebed5a9244dad1954d5fa6787c9efa/transformed/sr-common-http-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-http:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/26ebed5a9244dad1954d5fa6787c9efa/transformed/sr-common-http-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-screenshot:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/3908d5d2fabedeb33e095d60430a3554/transformed/sr-instrumentation-session-recording-screenshot-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-screenshot:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/3908d5d2fabedeb33e095d60430a3554/transformed/sr-instrumentation-session-recording-screenshot-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-wireframe:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/a1c5af92801782a791f3482b067e77d6/transformed/sr-instrumentation-session-recording-wireframe-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-instrumentation-session-recording-wireframe:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/a1c5af92801782a791f3482b067e77d6/transformed/sr-instrumentation-session-recording-wireframe-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-bridge:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/b99d01f7dd44e6d9c4b7d94a1ce65345/transformed/sr-bridge-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-bridge:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/b99d01f7dd44e6d9c4b7d94a1ce65345/transformed/sr-bridge-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-utils:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/e904ca7a317be5ba68228fd10e18f3b6/transformed/sr-common-utils-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-utils:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/e904ca7a317be5ba68228fd10e18f3b6/transformed/sr-common-utils-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-encoder:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/dd2e48e5dffb3508d169d644dae8a0ac/transformed/sr-common-encoder-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-encoder:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/dd2e48e5dffb3508d169d644dae8a0ac/transformed/sr-common-encoder-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-logger:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/b3e873ff5ce1c93799e59c8404aa1450/transformed/sr-common-logger-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-logger:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/b3e873ff5ce1c93799e59c8404aa1450/transformed/sr-common-logger-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-id:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/377a62d5eeee40215b911c3e38e82bbf/transformed/sr-common-id-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [com.splunk.android:sr-common-id:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/377a62d5eeee40215b911c3e38e82bbf/transformed/sr-common-id-1.0.27/AndroidManifest.xml:5:5-7:41
+MERGED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:anr:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/63ab16b73f05a6b65930495fa20c9915/transformed/anr-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:anr:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/63ab16b73f05a6b65930495fa20c9915/transformed/anr-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:crash:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/db1617ebc167cf50fd4d383a40578290/transformed/crash-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:crash:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/db1617ebc167cf50fd4d383a40578290/transformed/crash-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:network:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/983afc688507743a958808e82707d5dd/transformed/network-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:network:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/983afc688507743a958808e82707d5dd/transformed/network-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:slowrendering:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/b0aee75ab72f31791e4d1e49bbb046af/transformed/slowrendering-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:slowrendering:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/b0aee75ab72f31791e4d1e49bbb046af/transformed/slowrendering-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:httpurlconnection-library:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c931b229110faaf5c1809ee0a6bced54/transformed/httpurlconnection-library-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:httpurlconnection-library:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c931b229110faaf5c1809ee0a6bced54/transformed/httpurlconnection-library-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:okhttp3-library:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/a65109854fdfa7cec3a71d1b50b3552c/transformed/okhttp3-library-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:okhttp3-library:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/a65109854fdfa7cec3a71d1b50b3552c/transformed/okhttp3-library-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:android-instrumentation:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/6cb11c0b4abb861234b0691263ae272e/transformed/android-instrumentation-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android.instrumentation:android-instrumentation:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/6cb11c0b4abb861234b0691263ae272e/transformed/android-instrumentation-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/bb5b3180e04d38d930620908c49c72af/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/bb5b3180e04d38d930620908c49c72af/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/19a0d3b5cf4932a775ac8c265a8bf7ef/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/19a0d3b5cf4932a775ac8c265a8bf7ef/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/681ac713ac3beb20ca6ac68fa5e40773/transformed/navigation-fragment-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/681ac713ac3beb20ca6ac68fa5e40773/transformed/navigation-fragment-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c1b4b7e4ddf75253dcf3bce341b33ee8/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c1b4b7e4ddf75253dcf3bce341b33ee8/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/bce993be5c2915aa3e3621a443be23c5/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/bce993be5c2915aa3e3621a443be23c5/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/f65c311b471868b7529d3f59606bdcab/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/f65c311b471868b7529d3f59606bdcab/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/4a86c81514cfa7139b9dea6a40a13315/transformed/navigation-ui-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/4a86c81514cfa7139b9dea6a40a13315/transformed/navigation-ui-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/db4551a6b6f59936b8ef884cf114481a/transformed/navigation-ui-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/db4551a6b6f59936b8ef884cf114481a/transformed/navigation-ui-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nkim2/.gradle/caches/9.1.0/transforms/6ee1ded93cbff7852f06d8c1b21dee27/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nkim2/.gradle/caches/9.1.0/transforms/6ee1ded93cbff7852f06d8c1b21dee27/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/5d53b7b1898090a3ed8b659b09f487c2/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/5d53b7b1898090a3ed8b659b09f487c2/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/dfd5ea17c549d832ee2152db253b14b6/transformed/preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/dfd5ea17c549d832ee2152db253b14b6/transformed/preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/d884ebc5a7eab80de86e6e74c2bd94f6/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/d884ebc5a7eab80de86e6e74c2bd94f6/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/6fadc802d226fb0fb654fc769aef39f8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/6fadc802d226fb0fb654fc769aef39f8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/afd92d9dbaabfce12a513a794fd0a315/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/afd92d9dbaabfce12a513a794fd0a315/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/e5ff10ab8b3fe6551b433ac6be68c8a8/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/e5ff10ab8b3fe6551b433ac6be68c8a8/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/nkim2/.gradle/caches/9.1.0/transforms/21b928cea6ae67bcff8e804b04f1dc49/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/nkim2/.gradle/caches/9.1.0/transforms/21b928cea6ae67bcff8e804b04f1dc49/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/c4178303eb5c89e8c98738adaea7377e/transformed/play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/c4178303eb5c89e8c98738adaea7377e/transformed/play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bcb085447cf9f10f1962aa04a3f6619/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bcb085447cf9f10f1962aa04a3f6619/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/5df0a827e6a75dc4b14c72d19ee74663/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/5df0a827e6a75dc4b14c72d19ee74663/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/c15d9e26cfe4f8a6ad302397fbed5d3d/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/c15d9e26cfe4f8a6ad302397fbed5d3d/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/d49974e43c0ef18af3ee68363b1d134a/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/d49974e43c0ef18af3ee68363b1d134a/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/a113f92b0766c8c66443212d91903d8a/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/nkim2/.gradle/caches/9.1.0/transforms/a113f92b0766c8c66443212d91903d8a/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/6fa4ce5ce17189b20e3ce9229a7ce7bf/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/6fa4ce5ce17189b20e3ce9229a7ce7bf/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/1fd744198a2a4bd34a8d3c0ca45a371d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/1fd744198a2a4bd34a8d3c0ca45a371d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e3a54aeba19cdcb8f06a3b0d1f954836/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e3a54aeba19cdcb8f06a3b0d1f954836/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/6a9a0010f640c0eb0f1aba185874d6e8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/6a9a0010f640c0eb0f1aba185874d6e8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2529f987a0f38551ca8d5028c09ae5e3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2529f987a0f38551ca8d5028c09ae5e3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/12ca411b61d814f6401aedb2debe2d54/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/12ca411b61d814f6401aedb2debe2d54/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/77468d22e72f70a272519bf8238fefad/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/77468d22e72f70a272519bf8238fefad/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/10c652619b7d4c208560ae048f76ba6b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/10c652619b7d4c208560ae048f76ba6b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/5c142d25ea2bc15418cfc09aff72afca/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/5c142d25ea2bc15418cfc09aff72afca/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/b8e46b93d9521188751dc997b8176900/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/b8e46b93d9521188751dc997b8176900/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2afb0fae417790ae8301cf81e03e4859/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2afb0fae417790ae8301cf81e03e4859/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/6936e305036722ffed3b0f0bb4d202e9/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/6936e305036722ffed3b0f0bb4d202e9/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/8c856e0708483e19ad591713f3d75898/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/8c856e0708483e19ad591713f3d75898/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.opentelemetry.android:common:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/48c74ab5db11d701530f4e6f3aa3dfbc/transformed/common-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android:common:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/48c74ab5db11d701530f4e6f3aa3dfbc/transformed/common-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/215ca7e947839fc609ce8aee65643191/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/215ca7e947839fc609ce8aee65643191/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/954bddbf7157b25c66501157300def8a/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/954bddbf7157b25c66501157300def8a/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.4.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/563666a540c8af78c7c3293de9d1b435/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/563666a540c8af78c7c3293de9d1b435/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/5dc7ee5202de39a2294d8ce97d284002/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/5dc7ee5202de39a2294d8ce97d284002/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/045be08b8b1c462e9a51541c6c15891a/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/045be08b8b1c462e9a51541c6c15891a/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa8ce40d6fd1d6b16fa03e0bb9b747de/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa8ce40d6fd1d6b16fa03e0bb9b747de/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/1cdce1ffa8de45a0ddbceb144de6646f/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/1cdce1ffa8de45a0ddbceb144de6646f/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/88765bbcf0b8724696591560c9ed16ff/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/88765bbcf0b8724696591560c9ed16ff/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/00aaafb44d5619572bd6439bab8d8c57/transformed/lifecycle-livedata-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/00aaafb44d5619572bd6439bab8d8c57/transformed/lifecycle-livedata-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/46a53ee551a5df3e5994c03ebc45cf98/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/46a53ee551a5df3e5994c03ebc45cf98/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/516a6a86cd2a5610d534181b0175f624/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/516a6a86cd2a5610d534181b0175f624/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/286e6b9ae63da4087e0b2bf383ffd976/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/286e6b9ae63da4087e0b2bf383ffd976/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a3ab44e8bfb753023680207cd938781/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a3ab44e8bfb753023680207cd938781/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/b0b7f5cdb1b73a02dec8432881b91590/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/b0b7f5cdb1b73a02dec8432881b91590/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/63c67a17d98c2f24e746950877ea587e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/63c67a17d98c2f24e746950877ea587e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/bc2b3d4ddc992053f4039d2229d75525/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/bc2b3d4ddc992053f4039d2229d75525/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/d858bfe4b4fa6409c61dc82246d44282/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/d858bfe4b4fa6409c61dc82246d44282/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [io.opentelemetry.android:session:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/1f7f7048bdefee7a07da483940f6cefc/transformed/session-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [io.opentelemetry.android:session:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/1f7f7048bdefee7a07da483940f6cefc/transformed/session-0.11.0-alpha/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f429ba69c47f149b008509783dcc803/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f429ba69c47f149b008509783dcc803/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0a3593938924ff61a8967ac77137ed7d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0a3593938924ff61a8967ac77137ed7d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e017708deaee116361e56f21894300d8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e017708deaee116361e56f21894300d8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2c9f1ec491115698f3c1fad34798bc14/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/2c9f1ec491115698f3c1fad34798bc14/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/nkim2/.gradle/caches/9.1.0/transforms/50e33d6faf1b1b4436679cd7df49ae33/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/nkim2/.gradle/caches/9.1.0/transforms/50e33d6faf1b1b4436679cd7df49ae33/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bc210055d252b971d82a872d1a63840/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bc210055d252b971d82a872d1a63840/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/288c34a5a44f65a4fd33ef8fd28d2ae6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/288c34a5a44f65a4fd33ef8fd28d2ae6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/08ec95d5edd812c9c79d8481c5b9db4c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/08ec95d5edd812c9c79d8481c5b9db4c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9688f5bf0af211bef448e1cd5456cca/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9688f5bf0af211bef448e1cd5456cca/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/15d9e5295b3ba60ee3626e5f1ad00008/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/15d9e5295b3ba60ee3626e5f1ad00008/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/51b6bdd08b6f2fd6935f8ac6e5000e72/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/51b6bdd08b6f2fd6935f8ac6e5000e72/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/aa51f350b74ccab5bffa6a635ae4b6f3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/aa51f350b74ccab5bffa6a635ae4b6f3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/2085792d35b4c1544538376c4255714f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/2085792d35b4c1544538376c4255714f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/5426accd544d2907a1ccb9a429188b95/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/5426accd544d2907a1ccb9a429188b95/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml
+provider#com.splunk.rum.integration.okhttp3.manual.OkHttp3ManualModuleInstaller
+ADDED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:10:13-80
+	android:exported
+		ADDED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d28976c32c56e1bda8398dcbe6278d6e/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:9:13-98
+provider#com.splunk.rum.integration.sessionreplay.SessionReplayModuleInstaller
+ADDED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:10:13-80
+	android:exported
+		ADDED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/44b09b84a5be99c2568a0fd3686c9ac7/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:9:13-97
+provider#com.splunk.rum.integration.navigation.NavigationModuleInstaller
+ADDED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:10:13-77
+	android:exported
+		ADDED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/893a0a43b64b59a24cbcfedb1bfdcaeb/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:9:13-91
+provider#com.splunk.rum.integration.crash.CrashModuleInstaller
+ADDED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fe04759478518bfefc9924ffba96da77/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:9:13-81
+provider#com.splunk.rum.integration.anr.AnrModuleInstaller
+ADDED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:10:13-70
+	android:exported
+		ADDED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/d72ea3404bca6173ad5fa7adba5b7686/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:9:13-77
+provider#com.splunk.rum.integration.slowrendering.SlowRenderingModuleInstaller
+ADDED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:10:13-80
+	android:exported
+		ADDED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/849f04634a8c138f8e3e35531c2cd1a3/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:9:13-97
+provider#com.splunk.rum.integration.httpurlconnection.auto.HttpURLModuleInstaller
+ADDED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f9c3aa0af4978010f8558fa93bee44e5/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:9:13-100
+provider#com.splunk.rum.integration.okhttp3.auto.OkHttp3AutoModuleInstaller
+ADDED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:10:13-78
+	android:exported
+		ADDED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/0e82d2e8a51bca1cf395a71fc8cffeea/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:9:13-94
+provider#com.splunk.rum.integration.startup.StartupModuleInstaller
+ADDED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/80110f08a882bff86de37c888aeabdbd/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:9:13-85
+provider#com.splunk.rum.integration.interactions.InteractionsModuleInstaller
+ADDED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:10:13-79
+	android:exported
+		ADDED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a0e5a0c7d3bc6e401f607abd5e182225/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:9:13-95
+provider#com.splunk.rum.integration.networkmonitor.NetworkMonitorModuleInstaller
+ADDED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:10:13-81
+	android:exported
+		ADDED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/cbdeae10c11407a1f53e68498b932465/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:9:13-99
+provider#com.splunk.rum.integration.applicationlifecycle.ApplicationLifecycleIntegrationInstaller
+ADDED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:10:13-92
+	android:exported
+		ADDED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/401c628f804cbf8a259702759bd9d438/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:9:13-116
+service#com.splunk.rum.common.otel.span.UploadOtelSpanDataJob
+ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:8:9-10:72
+	android:permission
+		ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:10:13-69
+	android:name
+		ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:9:13-81
+service#com.splunk.rum.common.otel.logRecord.UploadOtelLogRecordDataJob
+ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:11:9-13:72
+	android:permission
+		ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:13:13-69
+	android:name
+		ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:12:13-91
+service#com.splunk.rum.common.otel.logRecord.UploadSessionReplayDataJob
+ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:14:9-16:72
+	android:permission
+		ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:16:13-69
+	android:name
+		ADDED from [com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/9a5dda2dbaa4d5f9620b6e5bb3f314af/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:15:13-91
+provider#com.splunk.rum.startup.StartupInstaller
+ADDED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fb790c37d2cb3961d35a59ae534a08a4/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:9:13-67
+provider#com.splunk.android.instrumentation.recording.core.SessionReplayInstaller
+ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:13:9-17:40
+	android:enabled
+		ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:16:13-35
+	android:authorities
+		ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:15:13-76
+	android:exported
+		ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:14:13-100
+service#com.splunk.android.instrumentation.recording.core.job.worker.ProcessVideoDataJob
+ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:19:9-21:72
+	android:permission
+		ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from [com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/915953cfe0ba81ce75f2cb4cfcad7660/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:20:13-108
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:9:5-75
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:9:5-75
+MERGED from [io.opentelemetry.android:services:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/8f0a262f6041f94b77115467fd383eee/transformed/services-0.11.0-alpha/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from [io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/c7a6f500b01d9c8f39c7f994b562e98b/transformed/core-0.11.0-alpha/AndroidManifest.xml:9:22-72
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/ab30d03fab683404cfc99c4f6e55aab3/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/7a84758df590fd84a5b2cf9d9aeb5942/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/738940f164c2260a5747d04471068a4a/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/288c34a5a44f65a4fd33ef8fd28d2ae6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/288c34a5a44f65a4fd33ef8fd28d2ae6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/73f068a22e88a531fa760832e9fe568a/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/69401dc67526703cda7c4273933952c3/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+permission#com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+uses-permission#com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cb3c598c4ee603f75ee94d0e4bedc8f9/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/c0c6060035252e403d997ddfcc1bef04/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/09e8440eb42c7d8f52b7cefd9d9358f0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
