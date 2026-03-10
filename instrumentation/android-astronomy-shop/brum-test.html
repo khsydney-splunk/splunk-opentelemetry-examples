@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Splunk RUM WebView Test</title>
+
+<script src="https://cdn.signalfx.com/splunk-rum.js" crossorigin="anonymous"></script>
+
+<script>
+SplunkRum.init({
+  realm: "us1",
+  rumAccessToken: "YOUR_BROWSER_RUM_TOKEN",
+  applicationName: "astronomy-web",
+  deploymentEnvironment: "test"
+});
+</script>
+
+<style>
+body{
+  font-family: Arial;
+  text-align:center;
+  margin-top:80px;
+}
+button{
+  padding:15px;
+  font-size:18px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Splunk Browser RUM Test</h1>
+
+<p>This page is loaded inside Android WebView.</p>
+
+<button onclick="testAction()">Click Event</button>
+
+<button onclick="generateError()">Generate JS Error</button>
+
+<button onclick="callAPI()">API Call</button>
+
+<script>
+
+function testAction(){
+  alert("Button Clicked");
+}
+
+function generateError(){
+  throw new Error("Test Browser Error");
+}
+
+function callAPI(){
+  fetch("https://jsonplaceholder.typicode.com/posts/1")
+    .then(r => r.json())
+    .then(data => console.log(data))
+}
+
+</script>
+
+</body>
+</html>
