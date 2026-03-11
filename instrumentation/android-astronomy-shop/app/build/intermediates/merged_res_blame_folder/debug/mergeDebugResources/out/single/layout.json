@@ -1,66 +1,70 @@
 [
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/item_cart.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/item_cart.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_profile.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/activity_main.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/activity_main.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_products.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_products.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_products.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_products.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_order_details.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_order_details.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_home.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_home.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_order_confirmation.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_order_confirmation.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/item_category.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/item_category.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_order_history.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_order_history.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/item_product.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/item_product.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_cart.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_cart.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/item_category_responsive.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/item_category_responsive.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/item_category.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/item_category.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_tracking.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_tracking.xml"
+        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_webview.xml",
+        "source": "com.astronomyshop.app-main-69:/layout/fragment_webview.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_cart.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_cart.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/activity_main.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/activity_main.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_profile.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_profile.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/item_order_history.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/item_order_history.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_checkout.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_checkout.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/item_product.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/item_product.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_order_confirmation.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_order_confirmation.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_product_detail.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_product_detail.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_order_details.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_order_details.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/item_category_responsive.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/item_category_responsive.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/item_order_history.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/item_order_history.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_tracking.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_tracking.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_product_detail.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_product_detail.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_checkout.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_checkout.xml"
     },
     {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_order_history.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_order_history.xml"
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_home.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/item_cart.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/item_cart.xml"
     }
 ]

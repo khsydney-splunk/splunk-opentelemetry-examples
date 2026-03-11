@@ -3415,6 +3415,7 @@ int id buttonDecrease 0x7f08006f
 int id buttonDecreaseQuantity 0x7f080070
 int id buttonIncrease 0x7f080071
 int id buttonIncreaseQuantity 0x7f080072
+int id buttonOpenWebView 0x7f080298
 int id buttonOrderHistory 0x7f080073
 int id buttonPanel 0x7f080074
 int id buttonPlaceOrder 0x7f080075
@@ -3786,6 +3787,7 @@ int id selected 0x7f0801e2
 int id selection_type 0x7f0801e3
 int id sharedValueSet 0x7f0801e4
 int id sharedValueUnset 0x7f0801e5
+int id shopWebView 0x7f08029a
 int id shortcut 0x7f0801e6
 int id showCustom 0x7f0801e7
 int id showHome 0x7f0801e8
@@ -3954,6 +3956,7 @@ int id view_tree_saved_state_registry_owner 0x7f08028a
 int id view_tree_view_model_store_owner 0x7f08028b
 int id visible 0x7f08028c
 int id visible_removing_fragment_view_tag 0x7f08028d
+int id webViewFragment 0x7f080299
 int id west 0x7f08028e
 int id wide 0x7f08028f
 int id withText 0x7f080290
@@ -4110,6 +4113,7 @@ int layout fragment_product_detail 0x7f0b0034
 int layout fragment_products 0x7f0b0035
 int layout fragment_profile 0x7f0b0036
 int layout fragment_tracking 0x7f0b0037
+int layout fragment_webview 0x7f0b008d
 int layout image_frame 0x7f0b0038
 int layout ime_base_split_test_activity 0x7f0b0039
 int layout ime_secondary_split_test_activity 0x7f0b003a

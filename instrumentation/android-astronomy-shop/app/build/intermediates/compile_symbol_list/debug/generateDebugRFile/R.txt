@@ -88,6 +88,7 @@ int id buttonDecrease 0x0
 int id buttonDecreaseQuantity 0x0
 int id buttonIncrease 0x0
 int id buttonIncreaseQuantity 0x0
+int id buttonOpenWebView 0x0
 int id buttonOrderHistory 0x0
 int id buttonPlaceOrder 0x0
 int id buttonRemove 0x0
@@ -148,6 +149,7 @@ int id ratingBar 0x0
 int id recyclerViewCart 0x0
 int id recyclerViewCategories 0x0
 int id recyclerViewProducts 0x0
+int id shopWebView 0x0
 int id spinnerCountry 0x0
 int id swipeRefreshLayout 0x0
 int id textBrand 0x0
@@ -196,6 +198,7 @@ int id textTrackingNumber 0x0
 int id textTrackingTitle 0x0
 int id textViewReviews 0x0
 int id trackingFragment 0x0
+int id webViewFragment 0x0
 int layout activity_main 0x0
 int layout fragment_cart 0x0
 int layout fragment_checkout 0x0
@@ -207,6 +210,7 @@ int layout fragment_product_detail 0x0
 int layout fragment_products 0x0
 int layout fragment_profile 0x0
 int layout fragment_tracking 0x0
+int layout fragment_webview 0x0
 int layout item_cart 0x0
 int layout item_category 0x0
 int layout item_category_responsive 0x0

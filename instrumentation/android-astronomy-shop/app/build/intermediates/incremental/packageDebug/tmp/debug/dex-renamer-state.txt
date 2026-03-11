@@ -1,4 +1,4 @@
-#Thu Mar 05 23:37:52 SGT 2026
+#Tue Mar 10 22:35:34 SGT 2026
 base.0=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 base.1=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/desugar_lib_dex/debug/l8DexDesugarLibDebug/classes1000.dex
 base.2=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex

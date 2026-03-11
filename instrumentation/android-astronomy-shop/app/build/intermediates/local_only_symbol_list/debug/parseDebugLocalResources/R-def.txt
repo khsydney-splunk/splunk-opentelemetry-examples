@@ -90,6 +90,7 @@ id buttonDecrease
 id buttonDecreaseQuantity
 id buttonIncrease
 id buttonIncreaseQuantity
+id buttonOpenWebView
 id buttonOrderHistory
 id buttonPlaceOrder
 id buttonRemove
@@ -150,6 +151,7 @@ id ratingBar
 id recyclerViewCart
 id recyclerViewCategories
 id recyclerViewProducts
+id shopWebView
 id spinnerCountry
 id swipeRefreshLayout
 id textBrand
@@ -198,6 +200,7 @@ id textTrackingNumber
 id textTrackingTitle
 id textViewReviews
 id trackingFragment
+id webViewFragment
 layout activity_main
 layout fragment_cart
 layout fragment_checkout
@@ -209,6 +212,7 @@ layout fragment_product_detail
 layout fragment_products
 layout fragment_profile
 layout fragment_tracking
+layout fragment_webview
 layout item_cart
 layout item_category
 layout item_category_responsive

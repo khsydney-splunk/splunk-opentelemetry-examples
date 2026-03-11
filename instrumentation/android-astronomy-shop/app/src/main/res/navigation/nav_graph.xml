@@ -65,4 +65,9 @@
             android:label="Order Tracking"
             tools:layout="@layout/fragment_tracking" />
 
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.astronomyshop.app.ui.fragments.WebViewFragment"
+        android:label="Web Shop" />
+
 </navigation>
