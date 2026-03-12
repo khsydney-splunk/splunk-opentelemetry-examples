@@ -19,6 +19,7 @@ import androidx.compose.material3.ScrollableTabRow
 import androidx.compose.material3.Tab
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.rememberUpdatedState
@@ -30,6 +31,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.fragment.app.Fragment
 import com.splunk.rum.integration.agent.api.SplunkRum
+import com.splunk.rum.integration.navigation.extension.navigation
 import com.splunk.rum.integration.webview.extension.webViewNativeBridge
 
 class ComposeRumFragment : Fragment() {
@@ -41,7 +43,7 @@ class ComposeRumFragment : Fragment() {
         ),
         HybridPage(
             title = "Catalog",
-            url = "https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-catalog.html"
+            url = "https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-catalog1.html"
         ),
         HybridPage(
             title = "Checkout",
@@ -72,6 +74,11 @@ private data class HybridPage(
 @Composable
 private fun ComposeRumScreen(pages: List<HybridPage>) {
     var selectedTab by rememberSaveable { mutableIntStateOf(0) }
+
+    LaunchedEffect(selectedTab) {
+        val screenName = "Compose.${pages[selectedTab].title}"
+        SplunkRum.instance.navigation.track(screenName)
+    }
 
     Column(modifier = Modifier.fillMaxSize()) {
         Text(
@@ -111,8 +118,8 @@ private fun ComposeWebViewPage(
             WebView(context).apply {
                 configureForRum()
 
-                SplunkRum.instance.webViewNativeBridge.integrateWithBrowserRum(this)
-
+                // Re-enable if your project has the working Splunk WebView bridge dependency/import
+                 SplunkRum.instance.webViewNativeBridge.integrateWithBrowserRum(this)
                 loadUrl(currentUrl)
             }
         },
