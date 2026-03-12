@@ -3403,6 +3403,13 @@ int id bounce 0x7f080063
 int id bounceBoth 0x7f080064
 int id bounceEnd 0x7f080065
 int id bounceStart 0x7f080066
+int id btnBackgroundCrash 0x7f08029b
+int id btnIndexCrash 0x7f08029c
+int id btnJavaCrash 0x7f08029d
+int id btnLockAnr 0x7f08029e
+int id btnMainThreadAnr 0x7f08029f
+int id btnNullPointer 0x7f0802a0
+int id btnStackOverflow 0x7f0802a1
 int id buttonAccount 0x7f080067
 int id buttonAddToCart 0x7f080068
 int id buttonBackToOrders 0x7f080069
@@ -3411,6 +3418,7 @@ int id buttonBuyNow 0x7f08006b
 int id buttonCheckout 0x7f08006c
 int id buttonClearCart 0x7f08006d
 int id buttonContinueShopping 0x7f08006e
+int id buttonCrashTest 0x7f0802a2
 int id buttonDecrease 0x7f08006f
 int id buttonDecreaseQuantity 0x7f080070
 int id buttonIncrease 0x7f080071
@@ -3682,6 +3690,7 @@ int id navigation_bar_item_labels_group 0x7f080179
 int id navigation_bar_item_large_label_view 0x7f08017a
 int id navigation_bar_item_small_label_view 0x7f08017b
 int id navigation_cart 0x7f08017c
+int id navigation_crash_test 0x7f0802a3
 int id navigation_header_container 0x7f08017d
 int id navigation_home 0x7f08017e
 int id navigation_orders 0x7f08017f
@@ -4105,6 +4114,7 @@ int layout design_text_input_start_icon 0x7f0b002c
 int layout expand_button 0x7f0b002d
 int layout fragment_cart 0x7f0b002e
 int layout fragment_checkout 0x7f0b002f
+int layout fragment_crash_test 0x7f0b008e
 int layout fragment_home 0x7f0b0030
 int layout fragment_order_confirmation 0x7f0b0031
 int layout fragment_order_details 0x7f0b0032

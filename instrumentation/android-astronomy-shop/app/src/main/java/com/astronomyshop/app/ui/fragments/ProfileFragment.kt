@@ -10,9 +10,6 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.button.MaterialButton
 import com.astronomyshop.app.R
 import com.astronomyshop.app.ui.viewmodels.MainViewModel
-import android.widget.Button
-import androidx.appcompat.app.AppCompatActivity
-
 class ProfileFragment : Fragment() {
 
 
@@ -31,12 +28,9 @@ class ProfileFragment : Fragment() {
 
         setupRegularClickListeners(view)
         observeViewModel()
+
     }
 
-
-    private fun generateCrash() {
-        throw RuntimeException("Test Crash for monitoring")
-    }
     private fun setupRegularClickListeners(view: View) {
         view.findViewById<MaterialButton>(R.id.buttonOrderHistory)?.setOnClickListener {
             findNavController().navigate(R.id.navigation_orders)
@@ -44,6 +38,9 @@ class ProfileFragment : Fragment() {
         //adding webview button
         view.findViewById<MaterialButton>(R.id.buttonOpenWebView)?.setOnClickListener {
             findNavController().navigate(R.id.webViewFragment)
+        }
+        view.findViewById<MaterialButton>(R.id.buttonCrashTest)?.setOnClickListener {
+            findNavController().navigate(R.id.navigation_crash_test)
         }
     }
 

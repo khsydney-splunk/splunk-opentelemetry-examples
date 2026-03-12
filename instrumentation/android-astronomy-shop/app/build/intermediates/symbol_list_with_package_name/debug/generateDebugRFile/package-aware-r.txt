@@ -77,6 +77,13 @@ drawable ssl_badge_background
 drawable tracking_info_background
 id action_search
 id bottom_navigation
+id btnBackgroundCrash
+id btnIndexCrash
+id btnJavaCrash
+id btnLockAnr
+id btnMainThreadAnr
+id btnNullPointer
+id btnStackOverflow
 id buttonAccount
 id buttonAddToCart
 id buttonBackToOrders
@@ -85,6 +92,7 @@ id buttonBuyNow
 id buttonCheckout
 id buttonClearCart
 id buttonContinueShopping
+id buttonCrashTest
 id buttonDecrease
 id buttonDecreaseQuantity
 id buttonIncrease
@@ -138,6 +146,7 @@ id loadingOverlay
 id nav_graph
 id nav_host_fragment
 id navigation_cart
+id navigation_crash_test
 id navigation_home
 id navigation_orders
 id navigation_products
@@ -203,6 +212,7 @@ id webViewFragment
 layout activity_main
 layout fragment_cart
 layout fragment_checkout
+layout fragment_crash_test
 layout fragment_home
 layout fragment_order_confirmation
 layout fragment_order_details

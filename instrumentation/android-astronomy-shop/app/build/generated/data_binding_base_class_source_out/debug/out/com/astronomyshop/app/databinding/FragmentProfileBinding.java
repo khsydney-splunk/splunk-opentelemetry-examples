@@ -23,6 +23,9 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final MaterialButton buttonAccount;
 
   @NonNull
+  public final MaterialButton buttonCrashTest;
+
+  @NonNull
   public final MaterialButton buttonOpenWebView;
 
   @NonNull
@@ -32,10 +35,12 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final MaterialButton buttonSettings;
 
   private FragmentProfileBinding(@NonNull ScrollView rootView,
-      @NonNull MaterialButton buttonAccount, @NonNull MaterialButton buttonOpenWebView,
-      @NonNull MaterialButton buttonOrderHistory, @NonNull MaterialButton buttonSettings) {
+      @NonNull MaterialButton buttonAccount, @NonNull MaterialButton buttonCrashTest,
+      @NonNull MaterialButton buttonOpenWebView, @NonNull MaterialButton buttonOrderHistory,
+      @NonNull MaterialButton buttonSettings) {
     this.rootView = rootView;
     this.buttonAccount = buttonAccount;
+    this.buttonCrashTest = buttonCrashTest;
     this.buttonOpenWebView = buttonOpenWebView;
     this.buttonOrderHistory = buttonOrderHistory;
     this.buttonSettings = buttonSettings;
@@ -74,6 +79,12 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.buttonCrashTest;
+      MaterialButton buttonCrashTest = ViewBindings.findChildViewById(rootView, id);
+      if (buttonCrashTest == null) {
+        break missingId;
+      }
+
       id = R.id.buttonOpenWebView;
       MaterialButton buttonOpenWebView = ViewBindings.findChildViewById(rootView, id);
       if (buttonOpenWebView == null) {
@@ -92,8 +103,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ScrollView) rootView, buttonAccount, buttonOpenWebView,
-          buttonOrderHistory, buttonSettings);
+      return new FragmentProfileBinding((ScrollView) rootView, buttonAccount, buttonCrashTest,
+          buttonOpenWebView, buttonOrderHistory, buttonSettings);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

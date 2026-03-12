@@ -76,6 +76,13 @@ int drawable ssl_badge_background 0x0
 int drawable tracking_info_background 0x0
 int id action_search 0x0
 int id bottom_navigation 0x0
+int id btnBackgroundCrash 0x0
+int id btnIndexCrash 0x0
+int id btnJavaCrash 0x0
+int id btnLockAnr 0x0
+int id btnMainThreadAnr 0x0
+int id btnNullPointer 0x0
+int id btnStackOverflow 0x0
 int id buttonAccount 0x0
 int id buttonAddToCart 0x0
 int id buttonBackToOrders 0x0
@@ -84,6 +91,7 @@ int id buttonBuyNow 0x0
 int id buttonCheckout 0x0
 int id buttonClearCart 0x0
 int id buttonContinueShopping 0x0
+int id buttonCrashTest 0x0
 int id buttonDecrease 0x0
 int id buttonDecreaseQuantity 0x0
 int id buttonIncrease 0x0
@@ -137,6 +145,7 @@ int id loadingOverlay 0x0
 int id nav_graph 0x0
 int id nav_host_fragment 0x0
 int id navigation_cart 0x0
+int id navigation_crash_test 0x0
 int id navigation_home 0x0
 int id navigation_orders 0x0
 int id navigation_products 0x0
@@ -202,6 +211,7 @@ int id webViewFragment 0x0
 int layout activity_main 0x0
 int layout fragment_cart 0x0
 int layout fragment_checkout 0x0
+int layout fragment_crash_test 0x0
 int layout fragment_home 0x0
 int layout fragment_order_confirmation 0x0
 int layout fragment_order_details 0x0

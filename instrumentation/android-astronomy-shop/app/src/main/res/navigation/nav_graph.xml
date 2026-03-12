@@ -70,4 +70,10 @@
         android:name="com.astronomyshop.app.ui.fragments.WebViewFragment"
         android:label="Web Shop" />
 
+    <fragment
+        android:id="@+id/navigation_crash_test"
+        android:name="com.astronomyshop.app.ui.fragments.CrashTestFragment"
+        android:label="Crash Test"
+        tools:layout="@layout/fragment_crash_test" />
+
 </navigation>

@@ -12,6 +12,10 @@
         "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_order_details.xml"
     },
     {
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_webview.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_webview.xml"
+    },
+    {
         "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_order_confirmation.xml",
         "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_order_confirmation.xml"
     },
@@ -26,10 +30,6 @@
     {
         "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/item_category.xml",
         "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/item_category.xml"
-    },
-    {
-        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_webview.xml",
-        "source": "com.astronomyshop.app-main-69:/layout/fragment_webview.xml"
     },
     {
         "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/activity_main.xml",
@@ -58,6 +58,14 @@
     {
         "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_checkout.xml",
         "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_crash_test.xml",
+        "source": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-main-69:/layout/fragment_crash_test.xml"
+    },
+    {
+        "merged": "com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_crash_test.xml",
+        "source": "com.astronomyshop.app-main-69:/layout/fragment_crash_test.xml"
     },
     {
         "merged": "/Users/nkim2/.gradle/daemon/9.1.0/com.astronomyshop.app-mergeDebugResources-66:/layout/fragment_home.xml",

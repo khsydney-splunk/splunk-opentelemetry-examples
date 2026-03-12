@@ -145,6 +145,24 @@
                     app:strokeColor="@color/design_default_color_primary"
                     app:strokeWidth="1dp"/>
 
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonCrashTest"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="OPEN CRASH TEST SCREEN"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="16sp"
+                    app:icon="@drawable/ic_auto_fix_24"
+                    app:iconTint="@color/design_default_color_primary"
+                    app:iconSize="24dp"
+                    app:cornerRadius="12dp"
+                    app:strokeColor="@color/design_default_color_primary"
+                    app:strokeWidth="1dp"/>
+
                 <!-- Settings Button -->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/buttonSettings"
