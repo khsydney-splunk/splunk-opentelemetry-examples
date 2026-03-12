@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-90:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/96a4a20caeff0b0f2368f570e92263bf/transformed/foundation-release/res/values-en-rCA/values-en-rCA.xml",

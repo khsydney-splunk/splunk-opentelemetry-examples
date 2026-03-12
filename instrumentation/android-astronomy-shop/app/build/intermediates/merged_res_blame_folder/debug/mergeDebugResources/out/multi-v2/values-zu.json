@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-zu/values-zu.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-90:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/d30d6c1b24296ca04de84355e5acd6d7/transformed/navigation-ui-2.7.7/res/values-zu/values-zu.xml",

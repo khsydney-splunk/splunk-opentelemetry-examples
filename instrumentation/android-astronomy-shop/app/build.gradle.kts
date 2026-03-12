@@ -51,7 +51,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     implementation("com.splunk:splunk-otel-android:2.1.5")
-//    implementation("com.splunk:rum-android-navigation:2.1.5")
+
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
     // CardView
     implementation("androidx.cardview:cardview:1.0.0")
@@ -65,6 +65,7 @@ dependencies {
     // Navigation Component
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
+    implementation ("androidx.navigation:navigation-compose:2.7.7")
 
     // RecyclerView
     implementation("androidx.recyclerview:recyclerview:1.3.2")

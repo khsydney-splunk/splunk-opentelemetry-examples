@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-sr/values-sr.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-90:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/res/values-sr/values.xml",

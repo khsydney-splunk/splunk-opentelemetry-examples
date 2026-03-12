@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-90:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/faae6d208074d6ec7aaa2b4eb6538941/transformed/material-1.11.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
