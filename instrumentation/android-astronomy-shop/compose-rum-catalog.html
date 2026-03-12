@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astronomy Shop - Catalog</title>
+
+  <!-- Replace with your real Splunk Browser RUM snippet -->
+  <script>
+    // window.SplunkRum.init({...});
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #1a1a1a;
+    }
+    .header {
+      background: #0d1b2a;
+      color: white;
+      padding: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 14px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Catalog</h1>
+    <p>Compose tab 2 / Browser RUM page 2</p>
+  </div>
+
+  <div class="grid">
+    <div class="product">
+      <h3>Orion 8"</h3>
+      <p>$799</p>
+      <button class="button" data-sku="orion-8">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Lunar Lens Pro</h3>
+      <p>$149</p>
+      <button class="button" data-sku="lunar-lens-pro">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Galaxy Mount</h3>
+      <p>$499</p>
+      <button class="button" data-sku="galaxy-mount">Add to Cart</button>
+    </div>
+  </div>
+
+  <div style="padding:20px;">
+    <a class="button" href="./compose-rum-checkout.html">Go to Checkout</a>
+  </div>
+
+  <script>
+    document.addEventListener("click", function (event) {
+      const addBtn = event.target.closest("[data-sku]");
+      if (addBtn && window.splunkRum) {
+        window.splunkRum.addEvent("catalog_add_to_cart", {
+          page_name: "catalog",
+          product_sku: addBtn.dataset.sku
+        });
+      }
+    });
+  </script>
+</body>
+</html>
