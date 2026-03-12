@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astronomy Shop - Landing</title>
+
+  <!-- Replace with your real Splunk Browser RUM snippet -->
+  <script>
+    // Example placeholder only
+    // window.SplunkRum.init({
+    //   realm: "YOUR_REALM",
+    //   rumAccessToken: "YOUR_BROWSER_RUM_TOKEN",
+    //   applicationName: "astronomy-shop-web",
+    //   deploymentEnvironment: "demo"
+    // });
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #071120;
+      color: white;
+    }
+    .hero {
+      padding: 48px 24px;
+      text-align: center;
+      background: linear-gradient(135deg, #13233c, #0b4f7a);
+    }
+    .section {
+      padding: 24px;
+    }
+    .card {
+      background: #122034;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 18px;
+      background: #2a9df4;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Explore the Night Sky</h1>
+    <p>Landing page loaded inside Compose WebView</p>
+    <a class="button" href="./compose-rum-catalog.html">Open Catalog</a>
+  </div>
+
+  <div class="section">
+    <div class="card">
+      <h2>Best Seller</h2>
+      <p>Deep Space Telescope X200</p>
+    </div>
+    <div class="card">
+      <h2>Featured Accessory</h2>
+      <p>Smart Star Tracker Mount</p>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("click", function (event) {
+      if (window.splunkRum && event.target.closest(".button")) {
+        window.splunkRum.addEvent("landing_cta_click", {
+          page_name: "landing"
+        });
+      }
+    });
+  </script>
+</body>
+</html>
