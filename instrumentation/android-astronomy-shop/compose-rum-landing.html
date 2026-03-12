@@ -5,16 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomy Shop - Landing</title>
 
-  <!-- Replace with your real Splunk Browser RUM snippet -->
-  <script>
-    // Example placeholder only
-    // window.SplunkRum.init({
-    //   realm: "YOUR_REALM",
-    //   rumAccessToken: "YOUR_BROWSER_RUM_TOKEN",
-    //   applicationName: "astronomy-shop-web",
-    //   deploymentEnvironment: "demo"
-    // });
-  </script>
+<script src="https://cdn.signalfx.com/o11y-gdi-rum/latest/splunk-otel-web.js" crossorigin="anonymous"></script>
+
+<script>
+SplunkRum.init({
+  realm: "us1",
+  rumAccessToken: "vGK-OAWMkvieXemxU02Z7A",
+  applicationName: "Nick-Astronomy-Splunk-Web",
+  deploymentEnvironment: "test"
+});
+</script>
+
 
   <style>
     body {
