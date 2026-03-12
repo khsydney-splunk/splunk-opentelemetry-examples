@@ -76,4 +76,9 @@
         android:label="Crash Test"
         tools:layout="@layout/fragment_crash_test" />
 
+    <fragment
+        android:id="@+id/navigation_hybrid"
+        android:name="com.astronomyshop.app.ui.fragments.ComposeRumFragment"
+        android:label="Hybrid Web Demo" />
+
 </navigation>

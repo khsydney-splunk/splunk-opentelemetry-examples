@@ -34,8 +34,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home -> navController.navigate(R.id.navigation_home)
                 R.id.navigation_products -> navController.navigate(R.id.navigation_products)
                 R.id.navigation_profile -> navController.navigate(R.id.navigation_profile)
-                R.id.navigation_orders -> navController.navigate(R.id.navigation_orders)
+//                R.id.navigation_orders -> navController.navigate(R.id.navigation_orders)
                 R.id.navigation_cart -> navController.navigate(R.id.navigation_cart)
+                R.id.navigation_hybrid -> navController.navigate(R.id.navigation_hybrid)
             }
             true
         }

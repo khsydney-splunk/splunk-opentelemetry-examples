@@ -43,6 +43,7 @@ drawable ic_flash_on_24
 drawable ic_history_24
 drawable ic_home_24
 drawable ic_hourglass_24
+drawable ic_language_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_local_shipping_24
@@ -148,6 +149,7 @@ id nav_host_fragment
 id navigation_cart
 id navigation_crash_test
 id navigation_home
+id navigation_hybrid
 id navigation_orders
 id navigation_products
 id navigation_profile

@@ -16,14 +16,19 @@
         android:icon="@drawable/ic_shopping_cart_24"
         android:title="Cart" />
 
-    <item
-        android:id="@+id/navigation_orders"
-        android:icon="@drawable/ic_history_24"
-        android:title="Orders" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_orders"-->
+<!--        android:icon="@drawable/ic_history_24"-->
+<!--        android:title="Orders" />-->
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_person_24"
         android:title="Profile" />
+
+    <item
+        android:id="@+id/navigation_hybrid"
+        android:icon="@drawable/ic_language_24"
+        android:title="Hybrid" />
 
 </menu>

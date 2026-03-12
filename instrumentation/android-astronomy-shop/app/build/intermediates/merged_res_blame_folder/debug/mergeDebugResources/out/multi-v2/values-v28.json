@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-65:/values-v28/values-v28.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/6fadc802d226fb0fb654fc769aef39f8/transformed/appcompat-1.6.1/res/values-v28/values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,8",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,397",
-                        "endLines": "2,3,7,11",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,392,584"
-                    },
-                    "to": {
-                        "startLines": "14,15,16,20",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "1142,1217,1304,1484",
-                        "endLines": "14,15,19,23",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "1212,1299,1479,1671"
-                    }
-                },
-                {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/faae6d208074d6ec7aaa2b4eb6538941/transformed/material-1.11.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,27",
                         "endColumns": "97,95,94,97,87,87,87,87,86,86,86,86,10",
                         "endOffsets": "148,244,339,437,525,613,701,789,876,963,1050,1137,1958"
+                    }
+                },
+                {
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/fbee274b935eac90c9b96d1f2802ba6c/transformed/appcompat-1.6.1/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,20",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1142,1217,1304,1484",
+                        "endLines": "14,15,19,23",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "1212,1299,1479,1671"
                     }
                 }
             ]

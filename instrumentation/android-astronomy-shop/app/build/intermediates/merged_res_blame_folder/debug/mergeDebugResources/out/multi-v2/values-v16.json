@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-65:/values-v16/values-v16.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/6fadc802d226fb0fb654fc769aef39f8/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/fbee274b935eac90c9b96d1f2802ba6c/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

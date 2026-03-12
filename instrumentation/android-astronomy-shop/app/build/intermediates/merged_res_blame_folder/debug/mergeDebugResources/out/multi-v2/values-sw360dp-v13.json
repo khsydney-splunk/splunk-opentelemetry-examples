@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-65:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/d884ebc5a7eab80de86e6e74c2bd94f6/transformed/preference-1.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/82e5c9a135a272b0adc969f0621c0957/transformed/preference-1.2.1/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

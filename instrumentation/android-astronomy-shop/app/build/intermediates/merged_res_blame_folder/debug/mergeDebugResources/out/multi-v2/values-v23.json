@@ -1,29 +1,21 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-65:/values-v23/values-v23.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/8f429ba69c47f149b008509783dcc803/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/fbee274b935eac90c9b96d1f2802ba6c/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "3232",
-                        "endLines": "52",
-                        "endColumns": "12",
-                        "endOffsets": "3377"
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
                     }
                 },
                 {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/faae6d208074d6ec7aaa2b4eb6538941/transformed/material-1.11.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,14 +34,22 @@
                     }
                 },
                 {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/6fadc802d226fb0fb654fc769aef39f8/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/e18003f11c5983e7c01c66809f3a79bd/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3232",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3377"
                     }
                 }
             ]

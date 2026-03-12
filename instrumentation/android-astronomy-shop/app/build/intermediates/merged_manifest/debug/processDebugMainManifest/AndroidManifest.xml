@@ -50,6 +50,11 @@
         </activity>
 
         <provider
+            android:name="com.splunk.rum.integration.networkmonitor.NetworkMonitorModuleInstaller"
+            android:authorities="com.astronomyshop.app.NetworkMonitorModuleInstaller"
+            android:enabled="true"
+            android:exported="false" />
+        <provider
             android:name="com.splunk.rum.integration.okhttp3.manual.OkHttp3ManualModuleInstaller"
             android:authorities="com.astronomyshop.app.OkHttp3ManualModuleInstaller"
             android:enabled="true"
@@ -100,15 +105,23 @@
             android:enabled="true"
             android:exported="false" />
         <provider
-            android:name="com.splunk.rum.integration.networkmonitor.NetworkMonitorModuleInstaller"
-            android:authorities="com.astronomyshop.app.NetworkMonitorModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
             android:name="com.splunk.rum.integration.applicationlifecycle.ApplicationLifecycleIntegrationInstaller"
             android:authorities="com.astronomyshop.app.ApplicationLifecycleIntegrationInstaller"
             android:enabled="true"
             android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
 
         <service
             android:name="com.splunk.rum.common.otel.span.UploadOtelSpanDataJob"
@@ -134,16 +147,6 @@
         <service
             android:name="com.splunk.android.instrumentation.recording.core.job.worker.ProcessVideoDataJob"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"

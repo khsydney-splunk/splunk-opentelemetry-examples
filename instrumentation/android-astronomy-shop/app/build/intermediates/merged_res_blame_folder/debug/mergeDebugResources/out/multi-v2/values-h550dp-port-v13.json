@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.astronomyshop.app-mergeDebugResources-65:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "com.astronomyshop.app-mergeDebugResources-88:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/0acbb1ac0676c10b9084f440a8059e05/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "/Users/nkim2/.gradle/caches/9.1.0/transforms/faae6d208074d6ec7aaa2b4eb6538941/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -42,6 +42,7 @@ int drawable ic_flash_on_24 0x0
 int drawable ic_history_24 0x0
 int drawable ic_home_24 0x0
 int drawable ic_hourglass_24 0x0
+int drawable ic_language_24 0x0
 int drawable ic_launcher_background 0x0
 int drawable ic_launcher_foreground 0x0
 int drawable ic_local_shipping_24 0x0
@@ -147,6 +148,7 @@ int id nav_host_fragment 0x0
 int id navigation_cart 0x0
 int id navigation_crash_test 0x0
 int id navigation_home 0x0
+int id navigation_hybrid 0x0
 int id navigation_orders 0x0
 int id navigation_products 0x0
 int id navigation_profile 0x0

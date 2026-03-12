@@ -1,13 +1,16 @@
-#Thu Mar 12 14:42:42 SGT 2026
+#Thu Mar 12 16:35:28 SGT 2026
 base.0=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 base.1=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/desugar_lib_dex/debug/l8DexDesugarLibDebug/classes1000.dex
 base.2=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/dex/debug/mergeDexDebug/classes2.dex
 base.3=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/dex/debug/mergeDexDebug/classes3.dex
+base.4=/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/build/intermediates/dex/debug/mergeDexDebug/classes4.dex
 path.0=classes.dex
 path.1=classes1000.dex
 path.2=classes2.dex
 path.3=classes3.dex
+path.4=classes4.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
+renamed.4=classes5.dex
