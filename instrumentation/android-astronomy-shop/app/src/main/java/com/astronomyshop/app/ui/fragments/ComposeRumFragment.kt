@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebChromeClient
+import android.webkit.WebResourceRequest
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -60,6 +61,13 @@ fun MainNavigationContainer() {
 //    TrackNavScreens(navController)
     TrackComposeNavigation(navController)
 
+    val navigateToRoute: (String) -> Unit = { route ->
+        navController.navigate(route) {
+            popUpTo(navController.graph.startDestinationId) { saveState = true }
+            launchSingleTop = true
+            restoreState = true
+        }
+    }
     Column(modifier = Modifier.fillMaxSize()) {
         Text(
             text = "Compose + WebView RUM",
@@ -93,17 +101,28 @@ fun MainNavigationContainer() {
             modifier = Modifier.fillMaxSize()
         ) {
             composable("landing") {
-                ComposeWebViewPage("https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-landing.html")
+                ComposeWebViewPage(
+                    url = "https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-landing.html",
+                    onNavigate = navigateToRoute
+                )
             }
             composable("catalog") {
-                ComposeWebViewPage("https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-catalog1.html")
+                ComposeWebViewPage(
+                    url = "https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-catalog1.html",
+                    onNavigate = navigateToRoute
+                )
             }
             composable("checkout") {
-                ComposeWebViewPage("https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-checkout.html")
+                ComposeWebViewPage(
+                    url = "https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/compose-rum-checkout.html",
+                    onNavigate = navigateToRoute
+                )
             }
         }
+
     }
 }
+
 
 /**
  * Advanced tracking logic that monitors the NavController stream.
@@ -121,19 +140,20 @@ fun MainNavigationContainer() {
 
 @SuppressLint("SetJavaScriptEnabled")
 @Composable
-fun ComposeWebViewPage(url: String) {
+fun ComposeWebViewPage(
+    url: String,
+    onNavigate: (String) -> Unit
+) {
     AndroidView(
         modifier = Modifier.fillMaxSize(),
         factory = { context ->
             WebView(context).apply {
-                configureForRum()
-                // Splunk Browser RUM -> Native RUM Bridge
+                configureForRum(onNavigate)
                 SplunkRum.instance.webViewNativeBridge.integrateWithBrowserRum(this)
                 loadUrl(url)
             }
         },
         update = { webView ->
-            // Only reload if the URL actually changed
             if (webView.url != url) {
                 webView.loadUrl(url)
             }
@@ -142,16 +162,46 @@ fun ComposeWebViewPage(url: String) {
 }
 
 @SuppressLint("SetJavaScriptEnabled")
-private fun WebView.configureForRum() {
+private fun WebView.configureForRum(onNavigate: (String) -> Unit) {
     settings.apply {
         javaScriptEnabled = true
         domStorageEnabled = true
         loadsImagesAutomatically = true
         mixedContentMode = WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE
         allowContentAccess = true
+        cacheMode = WebSettings.LOAD_NO_CACHE   // ADD THIS
+
     }
+
+    clearCache(true)
+
     webChromeClient = WebChromeClient()
-    webViewClient = WebViewClient()
+
+    webViewClient = object : WebViewClient() {
+        override fun shouldOverrideUrlLoading(
+            view: WebView?,
+            request: WebResourceRequest?
+        ): Boolean {
+            val targetUrl = request?.url?.toString() ?: return false
+
+            when {
+                targetUrl.contains("compose-rum-landing.html") -> {
+                    onNavigate("landing")
+                    return true
+                }
+                targetUrl.contains("compose-rum-catalog1.html") -> {
+                    onNavigate("catalog")
+                    return true
+                }
+                targetUrl.contains("compose-rum-checkout.html") -> {
+                    onNavigate("checkout")
+                    return true
+                }
+            }
+
+            return false
+        }
+    }
 }
 
 private fun getIndexFromRoute(route: String): Int {
