@@ -18,13 +18,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.fragment.app.Fragment
+import androidx.navigation.NavHost
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.astronomyshop.app.splunkrum.SplunkTrackedNavHost
+import com.astronomyshop.app.splunkrum.TrackComposeNavigation
 import com.splunk.rum.integration.agent.api.SplunkRum
 import com.splunk.rum.integration.navigation.extension.navigation
 import com.splunk.rum.integration.webview.extension.webViewNativeBridge
@@ -55,7 +57,8 @@ fun MainNavigationContainer() {
 
     // 1. COMPOSE UI TRACKING
     // This automatically detects route changes and sends them to Splunk RUM
-    TrackNavScreens(navController)
+//    TrackNavScreens(navController)
+    TrackComposeNavigation(navController)
 
     Column(modifier = Modifier.fillMaxSize()) {
         Text(
@@ -105,16 +108,16 @@ fun MainNavigationContainer() {
 /**
  * Advanced tracking logic that monitors the NavController stream.
  */
-@Composable
-private fun TrackNavScreens(navController: NavHostController) {
-    LaunchedEffect(navController) {
-        navController.currentBackStackEntryFlow.collectLatest { entry ->
-            val route = entry.destination.route ?: "unknown"
-            // Sends screen change to Splunk RUM
-            SplunkRum.instance.navigation.track("Compose.$route")
-        }
-    }
-}
+//@Composable
+//private fun TrackNavScreens(navController: NavHostController) {
+//    LaunchedEffect(navController) {
+//        navController.currentBackStackEntryFlow.collectLatest { entry ->
+//            val route = entry.destination.route ?: "unknown"
+//            // Sends screen change to Splunk RUM
+//            SplunkRum.instance.navigation.track("Compose.$route")
+//        }
+//    }
+//}
 
 @SuppressLint("SetJavaScriptEnabled")
 @Composable
