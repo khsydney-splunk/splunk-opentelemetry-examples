@@ -15,14 +15,14 @@ import android.widget.Toast
 import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import com.astronomyshop.app.R
-import com.splunk.rum.integration.agent.api.SplunkRum
-import com.splunk.rum.integration.webview.extension.webViewNativeBridge
+//import com.splunk.rum.integration.agent.api.SplunkRum
+//import com.splunk.rum.integration.webview.extension.webViewNativeBridge
 
 class WebViewFragment : Fragment() {
 
     private lateinit var webView: WebView
 
-    // Replace with your Browser RUM instrumented page
+    // Replace with your Browser RUFATAL EXCEPTIONM instrumented page
     private val webUrl =
         "https://khsydney-splunk.github.io/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/brum-test.html"
     override fun onCreateView(
@@ -42,7 +42,7 @@ class WebViewFragment : Fragment() {
         configureWebView(webView)
 
         // Important: call this BEFORE loadUrl()
-        SplunkRum.instance.webViewNativeBridge.integrateWithBrowserRum(webView)
+//        SplunkRum.instance.webViewNativeBridge.integrateWithBrowserRum(webView)
 
         webView.loadUrl(webUrl)
 

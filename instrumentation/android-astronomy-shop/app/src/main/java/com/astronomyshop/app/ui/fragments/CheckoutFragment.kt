@@ -16,8 +16,8 @@ import com.astronomyshop.app.R
 import com.astronomyshop.app.ui.viewmodels.MainViewModel
 import java.text.NumberFormat
 import java.util.*
-import com.astronomyshop.app.SplunkSetup
-import io.opentelemetry.api.common.AttributeKey
+//import com.astronomyshop.app.SplunkSetup
+//import io.opentelemetry.api.common.AttributeKey
 import java.util.UUID
 class CheckoutFragment : Fragment() {
 
@@ -106,25 +106,25 @@ class CheckoutFragment : Fragment() {
     }
 
 
-    private fun recordPaymentSuccess(orderId: String, amount: Double, currency: String, method: String) {
-        val span = SplunkSetup.trackWorkflow("Payment.Success")
-        span?.setAttribute(AttributeKey.stringKey("order.id"), orderId)
-        span?.setAttribute(AttributeKey.doubleKey("payment.amount"), amount)
-        span?.setAttribute(AttributeKey.stringKey("payment.currency"), currency)
-        span?.setAttribute(AttributeKey.stringKey("payment.method"), method) // e.g. "card", "apple_pay", "google_pay"
-        span?.end()
-    }
+//    private fun recordPaymentSuccess(orderId: String, amount: Double, currency: String, method: String) {
+//        val span = SplunkSetup.trackWorkflow("Payment.Success")
+//        span?.setAttribute(AttributeKey.stringKey("order.id"), orderId)
+//        span?.setAttribute(AttributeKey.doubleKey("payment.amount"), amount)
+//        span?.setAttribute(AttributeKey.stringKey("payment.currency"), currency)
+//        span?.setAttribute(AttributeKey.stringKey("payment.method"), method) // e.g. "card", "apple_pay", "google_pay"
+//        span?.end()
+//    }
 
-    private fun recordPaymentFailure(orderId: String?, errorCode: String?, errorMessage: String?) {
-        val span = SplunkSetup.trackWorkflow("Payment.Failed")
-        orderId?.let { span?.setAttribute(AttributeKey.stringKey("order.id"), it) }
-        errorCode?.let { span?.setAttribute(AttributeKey.stringKey("payment.error_code"), it) }
-
-        // keep short + generic to avoid leaking anything sensitive
-        errorMessage?.take(80)?.let { span?.setAttribute(AttributeKey.stringKey("payment.error"), it) }
-
-        span?.end()
-    }
+//    private fun recordPaymentFailure(orderId: String?, errorCode: String?, errorMessage: String?) {
+//        val span = SplunkSetup.trackWorkflow("Payment.Failed")
+//        orderId?.let { span?.setAttribute(AttributeKey.stringKey("order.id"), it) }
+//        errorCode?.let { span?.setAttribute(AttributeKey.stringKey("payment.error_code"), it) }
+//
+//        // keep short + generic to avoid leaking anything sensitive
+//        errorMessage?.take(80)?.let { span?.setAttribute(AttributeKey.stringKey("payment.error"), it) }
+//
+//        span?.end()
+//    }
 
     private fun setupCountrySpinner() {
         val countries = arrayOf(
@@ -222,18 +222,18 @@ class CheckoutFragment : Fragment() {
         } else {
         }
 
-        if (!isValid) {
-            val uniqueFailed = failedFields.distinct()
-            SplunkSetup.recordError(
-                errorType = "FormValidationError",
-                errorMessage = "Checkout validation failed: ${uniqueFailed.joinToString(", ")}",
-                attributes = mapOf(
-                    "screen.name" to "Checkout",
-                    "validation.failed_fields" to uniqueFailed.joinToString(","),
-                    "validation.field_count" to uniqueFailed.size.toString()
-                )
-            )
-        }
+//        if (!isValid) {
+//            val uniqueFailed = failedFields.distinct()
+//            SplunkSetup.recordError(
+//                errorType = "FormValidationError",
+//                errorMessage = "Checkout validation failed: ${uniqueFailed.joinToString(", ")}",
+//                attributes = mapOf(
+//                    "screen.name" to "Checkout",
+//                    "validation.failed_fields" to uniqueFailed.joinToString(","),
+//                    "validation.field_count" to uniqueFailed.size.toString()
+//                )
+//            )
+//        }
 
         return isValid
     }
@@ -283,57 +283,6 @@ class CheckoutFragment : Fragment() {
         }
     }
 
-//    private fun processOrder() {
-//        try {
-//            buttonPlaceOrder.isEnabled = false
-//            buttonPlaceOrder.text = "Processing Payment..."
-//
-//            val paymentError = viewModel.checkPaymentError()
-//
-//            if (paymentError != null) {
-//                requireView().postDelayed({
-//                    buttonPlaceOrder.isEnabled = true
-//                    buttonPlaceOrder.text = "Place Order"
-//
-//                    MaterialAlertDialogBuilder(requireContext())
-//                        .setTitle("Payment Declined")
-//                        .setMessage("Card Declined - Error Code: 4001\n\n(This is a test error)")
-//                        .setPositiveButton("Try Again") { _, _ -> }
-//                        .setNegativeButton("Clear Error") { _, _ ->
-//                            viewModel.clearError()
-//                        }
-//                        .show()
-//                }, 1500)
-//                return
-//            }
-//
-//            // Payment successful
-//            requireView().postDelayed({
-//                viewModel.createOrder(
-//                    customerName = editFullName.text.toString(),
-//                    customerEmail = editEmail.text.toString(),
-//                    shippingAddress = buildShippingAddress(),
-//                    paymentMethod = getCardLastFour()
-//                )
-//
-//                // Navigate to confirmation
-//                requireView().postDelayed({
-//                    val bundle = Bundle().apply {
-//                        putString("customerName", editFullName.text.toString())
-//                        putString("customerEmail", editEmail.text.toString())
-//                        putString("orderTotal", textOrderTotal.text.toString())
-//                    }
-//                    findNavController().navigate(R.id.orderConfirmationFragment, bundle)
-//                }, 500)
-//
-//            }, 2000)
-//
-//        } catch (e: Exception) {
-//            buttonPlaceOrder.isEnabled = true
-//            buttonPlaceOrder.text = "Place Order"
-//        }
-//    }
-
     private fun processOrder() {
         // create an order id for this checkout attempt (since your demo flow doesn't return one)
         val orderId = UUID.randomUUID().toString()
@@ -343,11 +292,11 @@ class CheckoutFragment : Fragment() {
         val currency = "USD"
         val method = "card"
 
-        val submitSpan = SplunkSetup.trackWorkflow("Payment.Submit")
-        submitSpan?.setAttribute(AttributeKey.stringKey("order.id"), orderId)
-        submitSpan?.setAttribute(AttributeKey.doubleKey("payment.amount"), amount)
-        submitSpan?.setAttribute(AttributeKey.stringKey("payment.currency"), currency)
-        submitSpan?.setAttribute(AttributeKey.stringKey("payment.method"), method)
+//        val submitSpan = SplunkSetup.trackWorkflow("Payment.Submit")
+//        submitSpan?.setAttribute(AttributeKey.stringKey("order.id"), orderId)
+//        submitSpan?.setAttribute(AttributeKey.doubleKey("payment.amount"), amount)
+//        submitSpan?.setAttribute(AttributeKey.stringKey("payment.currency"), currency)
+//        submitSpan?.setAttribute(AttributeKey.stringKey("payment.method"), method)
 
         try {
             buttonPlaceOrder.isEnabled = false
@@ -357,8 +306,8 @@ class CheckoutFragment : Fragment() {
 
             if (paymentError != null) {
                 // record failure BEFORE showing dialog
-                submitSpan?.end()
-                recordPaymentFailure(orderId, "4001", "Card Declined (test error)")
+//                submitSpan?.end()
+//                recordPaymentFailure(orderId, "4001", "Card Declined (test error)")
 
                 requireView().postDelayed({
                     buttonPlaceOrder.isEnabled = true
@@ -379,8 +328,8 @@ class CheckoutFragment : Fragment() {
             // success path
             requireView().postDelayed({
                 // record success when payment is considered successful
-                submitSpan?.end()
-                recordPaymentSuccess(orderId, amount, currency, method)
+//                submitSpan?.end()
+//                recordPaymentSuccess(orderId, amount, currency, method)
 
                 viewModel.createOrder(
                     customerName = editFullName.text.toString(),
@@ -401,8 +350,8 @@ class CheckoutFragment : Fragment() {
             }, 2000)
 
         } catch (e: Exception) {
-            submitSpan?.end()
-            recordPaymentFailure(orderId, "EXCEPTION", e.message)
+//            submitSpan?.end()
+//            recordPaymentFailure(orderId, "EXCEPTION", e.message)
 
             buttonPlaceOrder.isEnabled = true
             buttonPlaceOrder.text = "Place Order"

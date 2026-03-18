@@ -29,345 +29,172 @@
 17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 17-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:11:5-76
 17-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:11:22-73
-18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-18-->[io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/d01b4d884a15da7afc1b99cd724a8d1d/transformed/core-0.11.0-alpha/AndroidManifest.xml:9:5-75
-18-->[io.opentelemetry.android:core:0.11.0-alpha] /Users/nkim2/.gradle/caches/9.1.0/transforms/d01b4d884a15da7afc1b99cd724a8d1d/transformed/core-0.11.0-alpha/AndroidManifest.xml:9:22-72
-19
-20    <permission
-20-->[androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e67192de6d81a8f425aa65c50134a44f/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
-21        android:name="com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-21-->[androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e67192de6d81a8f425aa65c50134a44f/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
-22        android:protectionLevel="signature" />
-22-->[androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e67192de6d81a8f425aa65c50134a44f/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
-23
-24    <uses-permission android:name="com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-24-->[androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e67192de6d81a8f425aa65c50134a44f/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
-24-->[androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e67192de6d81a8f425aa65c50134a44f/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
-25
-26    <application
-26-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:13:5-34:19
-27        android:name="com.astronomyshop.app.SplunkSetup"
-27-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:14:13-40
-28        android:allowBackup="true"
-28-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:17:13-39
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.16.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e67192de6d81a8f425aa65c50134a44f/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
-30        android:dataExtractionRules="@xml/data_extraction_rules"
-30-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:18:13-69
-31        android:debuggable="true"
-32        android:extractNativeLibs="false"
-33        android:fullBackupContent="@xml/backup_rules"
-33-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:19:13-58
-34        android:icon="@mipmap/ic_launcher"
-34-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:15:13-47
-35        android:label="@string/app_name"
-35-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:16:13-45
-36        android:roundIcon="@mipmap/ic_launcher_round"
-36-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:20:13-58
-37        android:supportsRtl="true"
-37-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:21:13-39
-38        android:testOnly="true"
-39        android:theme="@style/Theme.AstronomyShop" >
-39-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:22:13-55
-40        <activity
-40-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:24:9-33:20
-41            android:name="com.astronomyshop.app.MainActivity"
-41-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:25:13-41
-42            android:exported="true"
-42-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:26:13-36
-43            android:label="@string/app_name"
-43-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:27:13-45
-44            android:theme="@style/Theme.AstronomyShop" >
-44-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:28:13-55
-45            <intent-filter>
-45-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:29:13-32:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:30:17-69
-46-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:30:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:31:17-77
-48-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:31:27-74
-49            </intent-filter>
-50        </activity>
-51
-52        <provider
-52-->[com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4c552700b152fac199ee06e74b5376f6/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:8:9-12:40
-53            android:name="com.splunk.rum.integration.networkmonitor.NetworkMonitorModuleInstaller"
-53-->[com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4c552700b152fac199ee06e74b5376f6/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:9:13-99
-54            android:authorities="com.astronomyshop.app.NetworkMonitorModuleInstaller"
-54-->[com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4c552700b152fac199ee06e74b5376f6/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:10:13-81
-55            android:enabled="true"
-55-->[com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4c552700b152fac199ee06e74b5376f6/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:11:13-35
-56            android:exported="false" />
-56-->[com.splunk:rum-integration-networkmonitor:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4c552700b152fac199ee06e74b5376f6/transformed/rum-integration-networkmonitor-2.1.5/AndroidManifest.xml:12:13-37
-57        <provider
-57-->[com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f2dea7563b05129dd5edd49f19f76b02/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:8:9-12:40
-58            android:name="com.splunk.rum.integration.okhttp3.manual.OkHttp3ManualModuleInstaller"
-58-->[com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f2dea7563b05129dd5edd49f19f76b02/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:9:13-98
-59            android:authorities="com.astronomyshop.app.OkHttp3ManualModuleInstaller"
-59-->[com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f2dea7563b05129dd5edd49f19f76b02/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:10:13-80
-60            android:enabled="true"
-60-->[com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f2dea7563b05129dd5edd49f19f76b02/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:11:13-35
-61            android:exported="false" />
-61-->[com.splunk:rum-integration-okhttp3-manual:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/f2dea7563b05129dd5edd49f19f76b02/transformed/rum-integration-okhttp3-manual-2.1.5/AndroidManifest.xml:12:13-37
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/9e508d5f19299d4064640c3dd95bc316/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+20        android:name="com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/9e508d5f19299d4064640c3dd95bc316/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/9e508d5f19299d4064640c3dd95bc316/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/9e508d5f19299d4064640c3dd95bc316/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/9e508d5f19299d4064640c3dd95bc316/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:13:5-33:19
+26        android:allowBackup="true"
+26-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:16:13-39
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/9e508d5f19299d4064640c3dd95bc316/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:17:13-69
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:18:13-58
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:14:13-47
+33        android:label="@string/app_name"
+33-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:15:13-45
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:19:13-58
+35        android:supportsRtl="true"
+35-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:20:13-39
+36        android:testOnly="true"
+37        android:theme="@style/Theme.AstronomyShop" >
+37-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:21:13-55
+38        <activity
+38-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:23:9-32:20
+39            android:name="com.astronomyshop.app.MainActivity"
+39-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:24:13-41
+40            android:exported="true"
+40-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:25:13-36
+41            android:label="@string/app_name"
+41-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:26:13-45
+42            android:theme="@style/Theme.AstronomyShop" >
+42-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:27:13-55
+43            <intent-filter>
+43-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:28:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:29:17-69
+44-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:30:17-77
+46-->/Users/nkim2/testing/splunk-opentelemetry-examples/instrumentation/android-astronomy-shop/app/src/main/AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cd86dce752f990cd6c85f2812e61d2c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cd86dce752f990cd6c85f2812e61d2c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cd86dce752f990cd6c85f2812e61d2c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+57
+58        <activity
+58-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bde550aa02f38fc9f53e0e47a3e5025/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.compose.ui.tooling.PreviewActivity"
+59-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bde550aa02f38fc9f53e0e47a3e5025/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bde550aa02f38fc9f53e0e47a3e5025/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+61
 62        <provider
-62-->[com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/50202e06c8afb4641734e608a3c02b78/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:8:9-12:40
-63            android:name="com.splunk.rum.integration.sessionreplay.SessionReplayModuleInstaller"
-63-->[com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/50202e06c8afb4641734e608a3c02b78/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:9:13-97
-64            android:authorities="com.astronomyshop.app.SessionReplayModuleInstaller"
-64-->[com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/50202e06c8afb4641734e608a3c02b78/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:10:13-80
-65            android:enabled="true"
-65-->[com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/50202e06c8afb4641734e608a3c02b78/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:11:13-35
-66            android:exported="false" />
-66-->[com.splunk:rum-integration-sessionreplay:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/50202e06c8afb4641734e608a3c02b78/transformed/rum-integration-sessionreplay-2.1.5/AndroidManifest.xml:12:13-37
-67        <provider
-67-->[com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a84aa5da82413c8deba5bc1472520e39/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:8:9-12:40
-68            android:name="com.splunk.rum.integration.navigation.NavigationModuleInstaller"
-68-->[com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a84aa5da82413c8deba5bc1472520e39/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:9:13-91
-69            android:authorities="com.astronomyshop.app.NavigationModuleInstaller"
-69-->[com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a84aa5da82413c8deba5bc1472520e39/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:10:13-77
-70            android:enabled="true"
-70-->[com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a84aa5da82413c8deba5bc1472520e39/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:11:13-35
-71            android:exported="false" />
-71-->[com.splunk:rum-integration-navigation:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a84aa5da82413c8deba5bc1472520e39/transformed/rum-integration-navigation-2.1.5/AndroidManifest.xml:12:13-37
-72        <provider
-72-->[com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/89027e14180a3162b0fb1b9a7b342670/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:8:9-12:40
-73            android:name="com.splunk.rum.integration.crash.CrashModuleInstaller"
-73-->[com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/89027e14180a3162b0fb1b9a7b342670/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:9:13-81
-74            android:authorities="com.astronomyshop.app.CrashModuleInstaller"
-74-->[com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/89027e14180a3162b0fb1b9a7b342670/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:10:13-72
-75            android:enabled="true"
-75-->[com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/89027e14180a3162b0fb1b9a7b342670/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:11:13-35
-76            android:exported="false" />
-76-->[com.splunk:rum-integration-crash:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/89027e14180a3162b0fb1b9a7b342670/transformed/rum-integration-crash-2.1.5/AndroidManifest.xml:12:13-37
-77        <provider
-77-->[com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/37e015638b1f72ab5161e60f892b7604/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:8:9-12:40
-78            android:name="com.splunk.rum.integration.anr.AnrModuleInstaller"
-78-->[com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/37e015638b1f72ab5161e60f892b7604/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:9:13-77
-79            android:authorities="com.astronomyshop.app.AnrModuleInstaller"
-79-->[com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/37e015638b1f72ab5161e60f892b7604/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:10:13-70
-80            android:enabled="true"
-80-->[com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/37e015638b1f72ab5161e60f892b7604/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:11:13-35
-81            android:exported="false" />
-81-->[com.splunk:rum-integration-anr:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/37e015638b1f72ab5161e60f892b7604/transformed/rum-integration-anr-2.1.5/AndroidManifest.xml:12:13-37
-82        <provider
-82-->[com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa0c21ae6c4cd4101211e97ce928a039/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:8:9-12:40
-83            android:name="com.splunk.rum.integration.slowrendering.SlowRenderingModuleInstaller"
-83-->[com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa0c21ae6c4cd4101211e97ce928a039/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:9:13-97
-84            android:authorities="com.astronomyshop.app.SlowRenderingModuleInstaller"
-84-->[com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa0c21ae6c4cd4101211e97ce928a039/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:10:13-80
-85            android:enabled="true"
-85-->[com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa0c21ae6c4cd4101211e97ce928a039/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:11:13-35
-86            android:exported="false" />
-86-->[com.splunk:rum-integration-slowrendering:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/fa0c21ae6c4cd4101211e97ce928a039/transformed/rum-integration-slowrendering-2.1.5/AndroidManifest.xml:12:13-37
-87        <provider
-87-->[com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/e1d2107a035cf21627d1101e6cfc633b/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:8:9-12:40
-88            android:name="com.splunk.rum.integration.httpurlconnection.auto.HttpURLModuleInstaller"
-88-->[com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/e1d2107a035cf21627d1101e6cfc633b/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:9:13-100
-89            android:authorities="com.astronomyshop.app.HttpURLModuleInstaller"
-89-->[com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/e1d2107a035cf21627d1101e6cfc633b/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:10:13-74
-90            android:enabled="true"
-90-->[com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/e1d2107a035cf21627d1101e6cfc633b/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:11:13-35
-91            android:exported="false" />
-91-->[com.splunk:rum-integration-httpurlconnection-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/e1d2107a035cf21627d1101e6cfc633b/transformed/rum-integration-httpurlconnection-auto-2.1.5/AndroidManifest.xml:12:13-37
-92        <provider
-92-->[com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/c61a59b80fa1db6c9c2d996cb08d2a9d/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:8:9-12:40
-93            android:name="com.splunk.rum.integration.okhttp3.auto.OkHttp3AutoModuleInstaller"
-93-->[com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/c61a59b80fa1db6c9c2d996cb08d2a9d/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:9:13-94
-94            android:authorities="com.astronomyshop.app.OkHttp3AutoModuleInstaller"
-94-->[com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/c61a59b80fa1db6c9c2d996cb08d2a9d/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:10:13-78
-95            android:enabled="true"
-95-->[com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/c61a59b80fa1db6c9c2d996cb08d2a9d/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:11:13-35
-96            android:exported="false" />
-96-->[com.splunk:rum-integration-okhttp3-auto:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/c61a59b80fa1db6c9c2d996cb08d2a9d/transformed/rum-integration-okhttp3-auto-2.1.5/AndroidManifest.xml:12:13-37
-97        <provider
-97-->[com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/3bd35594b5984f7126ff97df6cb844a5/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:8:9-12:40
-98            android:name="com.splunk.rum.integration.startup.StartupModuleInstaller"
-98-->[com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/3bd35594b5984f7126ff97df6cb844a5/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:9:13-85
-99            android:authorities="com.astronomyshop.app.StartupModuleInstaller"
-99-->[com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/3bd35594b5984f7126ff97df6cb844a5/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:10:13-74
-100            android:enabled="true"
-100-->[com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/3bd35594b5984f7126ff97df6cb844a5/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:11:13-35
-101            android:exported="false" />
-101-->[com.splunk:rum-integration-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/3bd35594b5984f7126ff97df6cb844a5/transformed/rum-integration-startup-2.1.5/AndroidManifest.xml:12:13-37
-102        <provider
-102-->[com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a980fc0565f60094d5cab2c6289ffd29/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:8:9-12:40
-103            android:name="com.splunk.rum.integration.interactions.InteractionsModuleInstaller"
-103-->[com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a980fc0565f60094d5cab2c6289ffd29/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:9:13-95
-104            android:authorities="com.astronomyshop.app.InteractionsModuleInstaller"
-104-->[com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a980fc0565f60094d5cab2c6289ffd29/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:10:13-79
-105            android:enabled="true"
-105-->[com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a980fc0565f60094d5cab2c6289ffd29/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:11:13-35
-106            android:exported="false" />
-106-->[com.splunk:rum-integration-interactions:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/a980fc0565f60094d5cab2c6289ffd29/transformed/rum-integration-interactions-2.1.5/AndroidManifest.xml:12:13-37
-107        <provider
-107-->[com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/791d1caf0703eb69c1c9b9ce75863066/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:8:9-12:40
-108            android:name="com.splunk.rum.integration.applicationlifecycle.ApplicationLifecycleIntegrationInstaller"
-108-->[com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/791d1caf0703eb69c1c9b9ce75863066/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:9:13-116
-109            android:authorities="com.astronomyshop.app.ApplicationLifecycleIntegrationInstaller"
-109-->[com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/791d1caf0703eb69c1c9b9ce75863066/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:10:13-92
-110            android:enabled="true"
-110-->[com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/791d1caf0703eb69c1c9b9ce75863066/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:11:13-35
-111            android:exported="false" />
-111-->[com.splunk:rum-integration-applicationlifecycle:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/791d1caf0703eb69c1c9b9ce75863066/transformed/rum-integration-applicationlifecycle-2.1.5/AndroidManifest.xml:12:13-37
-112
-113        <activity
-113-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
-114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-114-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
-115            android:exported="false"
-115-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
-116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-116-->[com.google.android.gms:play-services-base:18.5.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/0c23c4234829a1d28ecf5f246706622d/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
-117
-118        <meta-data
-118-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cd86dce752f990cd6c85f2812e61d2c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
-119            android:name="com.google.android.gms.version"
-119-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cd86dce752f990cd6c85f2812e61d2c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
-120            android:value="@integer/google_play_services_version" />
-120-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cd86dce752f990cd6c85f2812e61d2c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
-121
-122        <activity
-122-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bde550aa02f38fc9f53e0e47a3e5025/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
-123            android:name="androidx.compose.ui.tooling.PreviewActivity"
-123-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bde550aa02f38fc9f53e0e47a3e5025/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
-124            android:exported="true" />
-124-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/nkim2/.gradle/caches/9.1.0/transforms/0bde550aa02f38fc9f53e0e47a3e5025/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
-125
-126        <provider
-126-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-127            android:name="androidx.startup.InitializationProvider"
-127-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-128            android:authorities="com.astronomyshop.app.androidx-startup"
-128-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-129            android:exported="false" >
-129-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-130            <meta-data
-130-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-131                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-131-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-132                android:value="androidx.startup" />
-132-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-133            <meta-data
-133-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/e84c7f53fa343ef1e581e432f2d67b2c/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
-134                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-134-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/e84c7f53fa343ef1e581e432f2d67b2c/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
-135                android:value="androidx.startup" />
-135-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nkim2/.gradle/caches/9.1.0/transforms/e84c7f53fa343ef1e581e432f2d67b2c/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
-136            <meta-data
-136-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-137                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-137-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-138                android:value="androidx.startup" />
-138-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-139        </provider>
-140
-141        <uses-library
-141-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-142            android:name="androidx.window.extensions"
-142-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-143            android:required="false" />
-143-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-144        <uses-library
-144-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-145            android:name="androidx.window.sidecar"
-145-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-146            android:required="false" />
-146-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-147
-148        <service
-148-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:8:9-10:72
-149            android:name="com.splunk.rum.common.otel.span.UploadOtelSpanDataJob"
-149-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:9:13-81
-150            android:permission="android.permission.BIND_JOB_SERVICE" />
-150-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:10:13-69
-151        <service
-151-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:11:9-13:72
-152            android:name="com.splunk.rum.common.otel.logRecord.UploadOtelLogRecordDataJob"
-152-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:12:13-91
-153            android:permission="android.permission.BIND_JOB_SERVICE" />
-153-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:13:13-69
-154        <service
-154-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:14:9-16:72
-155            android:name="com.splunk.rum.common.otel.logRecord.UploadSessionReplayDataJob"
-155-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:15:13-91
-156            android:permission="android.permission.BIND_JOB_SERVICE" />
-156-->[com.splunk:rum-common-otel:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/78598c6f0852784979359185b7866781/transformed/rum-common-otel-2.1.5/AndroidManifest.xml:16:13-69
-157
-158        <provider
-158-->[com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4feaa95b031c0316967112b076250e01/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:8:9-12:40
-159            android:name="com.splunk.rum.startup.StartupInstaller"
-159-->[com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4feaa95b031c0316967112b076250e01/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:9:13-67
-160            android:authorities="com.astronomyshop.app.startup-installer"
-160-->[com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4feaa95b031c0316967112b076250e01/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:10:13-69
-161            android:enabled="true"
-161-->[com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4feaa95b031c0316967112b076250e01/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:11:13-35
-162            android:exported="false" />
-162-->[com.splunk:rum-instrumentation-startup:2.1.5] /Users/nkim2/.gradle/caches/9.1.0/transforms/4feaa95b031c0316967112b076250e01/transformed/rum-instrumentation-startup-2.1.5/AndroidManifest.xml:12:13-37
-163        <provider
-163-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:13:9-17:40
-164            android:name="com.splunk.android.instrumentation.recording.core.SessionReplayInstaller"
-164-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:14:13-100
-165            android:authorities="com.astronomyshop.app.session-replay-installer"
-165-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:15:13-76
-166            android:enabled="true"
-166-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:16:13-35
-167            android:exported="false" />
-167-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:17:13-37
-168
-169        <service
-169-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:19:9-21:72
-170            android:name="com.splunk.android.instrumentation.recording.core.job.worker.ProcessVideoDataJob"
-170-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:20:13-108
-171            android:permission="android.permission.BIND_JOB_SERVICE" />
-171-->[com.splunk.android:sr-instrumentation-session-recording-core:1.0.27] /Users/nkim2/.gradle/caches/9.1.0/transforms/9ab1f9238100f953e33a5aff664698cc/transformed/sr-instrumentation-session-recording-core-1.0.27/AndroidManifest.xml:21:13-69
-172        <service
-172-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
-173            android:name="androidx.room.MultiInstanceInvalidationService"
-173-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
-174            android:directBootAware="true"
-174-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
-175            android:exported="false" />
-175-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
-176
-177        <receiver
-177-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-178            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-178-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
-179            android:directBootAware="false"
-179-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
-180            android:enabled="true"
-180-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-181            android:exported="true"
-181-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-182            android:permission="android.permission.DUMP" >
-182-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
-183            <intent-filter>
-183-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
-184                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-184-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-184-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
-185            </intent-filter>
-186            <intent-filter>
-186-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
-187                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-187-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-187-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
-188            </intent-filter>
-189            <intent-filter>
-189-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
-190                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-190-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-190-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
-191            </intent-filter>
-192            <intent-filter>
-192-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
-193                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-193-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-193-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
-194            </intent-filter>
-195        </receiver>
-196    </application>
-197
-198</manifest>
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+64            android:authorities="com.astronomyshop.app.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/aef52b4d8892b324abefb20a43ae7f0d/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/nkim2/.gradle/caches/9.1.0/transforms/053cc602e31d5250b4c05bef4fa5aa04/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/nkim2/.gradle/caches/9.1.0/transforms/053cc602e31d5250b4c05bef4fa5aa04/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/nkim2/.gradle/caches/9.1.0/transforms/053cc602e31d5250b4c05bef4fa5aa04/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+75        </provider>
+76
+77        <uses-library
+77-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+78            android:name="androidx.window.extensions"
+78-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+80        <uses-library
+80-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+81            android:name="androidx.window.sidecar"
+81-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/e61969ae9a6a86d929b0c6122f667cbd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+83
+84        <service
+84-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+85            android:name="androidx.room.MultiInstanceInvalidationService"
+85-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+86            android:directBootAware="true"
+86-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+87            android:exported="false" />
+87-->[androidx.room:room-runtime:2.6.1] /Users/nkim2/.gradle/caches/9.1.0/transforms/a72b098a882a51c4063b8d6cf0b65578/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+88
+89        <receiver
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+91            android:directBootAware="false"
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+92            android:enabled="true"
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+93            android:exported="true"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+94            android:permission="android.permission.DUMP" >
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nkim2/.gradle/caches/9.1.0/transforms/cc1179f28de0c6aa56b6d2d3b6f37c41/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+106            </intent-filter>
+107        </receiver>
+108    </application>
+109
+110</manifest>

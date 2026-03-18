@@ -3,8 +3,8 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
     id("kotlin-parcelize")
     id("androidx.navigation.safeargs.kotlin")
-    id("com.splunk.rum-okhttp3-auto-plugin") version "2.1.6"
-    id("com.splunk.rum-httpurlconnection-auto-plugin") version "2.1.6"
+//    id("com.splunk.rum-okhttp3-auto-plugin") version "2.1.6"
+//    id("com.splunk.rum-httpurlconnection-auto-plugin") version "2.1.6"
 }
 
 android {
@@ -50,9 +50,10 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
-    implementation("com.splunk:splunk-otel-android:2.1.5")
-
+    // Splunk RUM
+//    implementation("com.splunk:splunk-otel-android:2.1.5")
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
+
     // CardView
     implementation("androidx.cardview:cardview:1.0.0")
 

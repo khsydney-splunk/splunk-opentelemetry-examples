@@ -15,7 +15,6 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <permission
         android:name="com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -24,7 +23,6 @@
     <uses-permission android:name="com.astronomyshop.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="com.astronomyshop.app.SplunkSetup"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -48,68 +46,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <provider
-            android:name="com.splunk.rum.integration.networkmonitor.NetworkMonitorModuleInstaller"
-            android:authorities="com.astronomyshop.app.NetworkMonitorModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.okhttp3.manual.OkHttp3ManualModuleInstaller"
-            android:authorities="com.astronomyshop.app.OkHttp3ManualModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.sessionreplay.SessionReplayModuleInstaller"
-            android:authorities="com.astronomyshop.app.SessionReplayModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.navigation.NavigationModuleInstaller"
-            android:authorities="com.astronomyshop.app.NavigationModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.crash.CrashModuleInstaller"
-            android:authorities="com.astronomyshop.app.CrashModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.anr.AnrModuleInstaller"
-            android:authorities="com.astronomyshop.app.AnrModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.slowrendering.SlowRenderingModuleInstaller"
-            android:authorities="com.astronomyshop.app.SlowRenderingModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.httpurlconnection.auto.HttpURLModuleInstaller"
-            android:authorities="com.astronomyshop.app.HttpURLModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.okhttp3.auto.OkHttp3AutoModuleInstaller"
-            android:authorities="com.astronomyshop.app.OkHttp3AutoModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.startup.StartupModuleInstaller"
-            android:authorities="com.astronomyshop.app.StartupModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.interactions.InteractionsModuleInstaller"
-            android:authorities="com.astronomyshop.app.InteractionsModuleInstaller"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.rum.integration.applicationlifecycle.ApplicationLifecycleIntegrationInstaller"
-            android:authorities="com.astronomyshop.app.ApplicationLifecycleIntegrationInstaller"
-            android:enabled="true"
-            android:exported="false" />
-
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -145,30 +81,6 @@
             android:name="androidx.window.sidecar"
             android:required="false" />
 
-        <service
-            android:name="com.splunk.rum.common.otel.span.UploadOtelSpanDataJob"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
-        <service
-            android:name="com.splunk.rum.common.otel.logRecord.UploadOtelLogRecordDataJob"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
-        <service
-            android:name="com.splunk.rum.common.otel.logRecord.UploadSessionReplayDataJob"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
-
-        <provider
-            android:name="com.splunk.rum.startup.StartupInstaller"
-            android:authorities="com.astronomyshop.app.startup-installer"
-            android:enabled="true"
-            android:exported="false" />
-        <provider
-            android:name="com.splunk.android.instrumentation.recording.core.SessionReplayInstaller"
-            android:authorities="com.astronomyshop.app.session-replay-installer"
-            android:enabled="true"
-            android:exported="false" />
-
-        <service
-            android:name="com.splunk.android.instrumentation.recording.core.job.worker.ProcessVideoDataJob"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"

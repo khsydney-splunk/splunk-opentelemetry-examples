@@ -13,11 +13,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.snackbar.Snackbar
 import com.astronomyshop.app.R
-import com.astronomyshop.app.SplunkSetup
+//import com.astronomyshop.app.SplunkSetup
 import com.astronomyshop.app.data.models.CartItem
 import com.astronomyshop.app.ui.adapters.CartAdapter
 import com.astronomyshop.app.ui.viewmodels.MainViewModel
-import io.opentelemetry.api.common.AttributeKey
+//import io.opentelemetry.api.common.AttributeKey
 import java.text.NumberFormat
 import java.util.*
 
@@ -37,46 +37,46 @@ class CartFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val cartViewSpan = SplunkSetup.trackWorkflow("Cart.View")
-        viewModel.cartItems.observe(viewLifecycleOwner) { items ->
-            cartViewSpan?.setAttribute(AttributeKey.longKey("cart.item_count"), items.size.toLong())
-            cartViewSpan?.setAttribute(
-                AttributeKey.doubleKey("cart.total"),
-                items.sumOf { it.productPrice * it.quantity }
-            )
-            cartViewSpan?.end()
-
-        }
+//        val cartViewSpan = SplunkSetup.trackWorkflow("Cart.View")
+//        viewModel.cartItems.observe(viewLifecycleOwner) { items ->
+//            cartViewSpan?.setAttribute(AttributeKey.longKey("cart.item_count"), items.size.toLong())
+//            cartViewSpan?.setAttribute(
+//                AttributeKey.doubleKey("cart.total"),
+//                items.sumOf { it.productPrice * it.quantity }
+//            )
+//            cartViewSpan?.end()
+//
+//        }
         setupViews(view)
         viewModel.loadCartItems()
     }
 
-    // Track quantity update
+//     Track quantity update
     private fun onQuantityChanged(cartItem: CartItem, newQuantity: Int) {
-        val span = SplunkSetup.trackWorkflow("Cart.UpdateQuantity")
-        span?.setAttribute(AttributeKey.stringKey("product.id"), cartItem.productId)
-        span?.setAttribute(AttributeKey.longKey("cart.old_quantity"), cartItem.quantity.toLong())
-        span?.setAttribute(AttributeKey.longKey("cart.new_quantity"), newQuantity.toLong())
+//        val span = SplunkSetup.trackWorkflow("Cart.UpdateQuantity")
+//        span?.setAttribute(AttributeKey.stringKey("product.id"), cartItem.productId)
+//        span?.setAttribute(AttributeKey.longKey("cart.old_quantity"), cartItem.quantity.toLong())
+//        span?.setAttribute(AttributeKey.longKey("cart.new_quantity"), newQuantity.toLong())
         viewModel.updateCartItemQuantity(cartItem, newQuantity)
-        span?.end()
+//        span?.end()
     }
 
-    // Track item removal
+//     Track item removal
     private fun onRemoveItem(cartItem: CartItem) {
-        val span = SplunkSetup.trackWorkflow("Cart.RemoveItem")
-        span?.setAttribute(AttributeKey.stringKey("product.id"), cartItem.productId)
-        span?.setAttribute(AttributeKey.stringKey("product.name"), cartItem.productName)
+//        val span = SplunkSetup.trackWorkflow("Cart.RemoveItem")
+//        span?.setAttribute(AttributeKey.stringKey("product.id"), cartItem.productId)
+//        span?.setAttribute(AttributeKey.stringKey("product.name"), cartItem.productName)
         viewModel.removeFromCart(cartItem)
-        span?.end()
+//        span?.end()
     }
 
     // Track cart clear
     private fun onClearCart() {
-        val span = SplunkSetup.trackWorkflow("Cart.Clear")
-        span?.setAttribute(AttributeKey.longKey("cart.items_cleared"),
-            (viewModel.cartItems.value?.size ?: 0).toLong())
+//        val span = SplunkSetup.trackWorkflow("Cart.Clear")
+//        span?.setAttribute(AttributeKey.longKey("cart.items_cleared"),
+//            (viewModel.cartItems.value?.size ?: 0).toLong())
         viewModel.clearCart()
-        span?.end()
+//        span?.end()
     }
 
 //    // Track checkout initiation
@@ -93,19 +93,24 @@ class CartFragment : Fragment() {
     private fun onProceedToCheckout() {
         val cartItems = viewModel.cartItems.value ?: emptyList()
 
-        val span = SplunkSetup.trackWorkflow("Checkout.Initiated")
-        span?.setAttribute(AttributeKey.doubleKey("cart.total"), viewModel.getCartTotal())
-        span?.setAttribute(AttributeKey.longKey("cart.item_count"), cartItems.size.toLong())
+//        val span = SplunkSetup.trackWorkflow("Checkout.Initiated")
+//        span?.setAttribute(AttributeKey.doubleKey("cart.total"), viewModel.getCartTotal())
+//        span?.setAttribute(AttributeKey.longKey("cart.item_count"), cartItems.size.toLong())
 
         if (cartItems.isNotEmpty()) {
             findNavController().navigate(R.id.checkoutFragment)
         } else {
+            view?.let {
+                Snackbar.make(it, "Your cart is empty", Snackbar.LENGTH_SHORT).show()
+            }
             // optional: record why checkout didn't happen
-            span?.setAttribute(AttributeKey.booleanKey("checkout.blocked_empty_cart"), true)
+//            span?.setAttribute(AttributeKey.booleanKey("checkout.blocked_empty_cart"), true)
         }
 
-        span?.end()
+//        span?.end()
     }
+
+
 
     override fun onResume() {
         super.onResume()

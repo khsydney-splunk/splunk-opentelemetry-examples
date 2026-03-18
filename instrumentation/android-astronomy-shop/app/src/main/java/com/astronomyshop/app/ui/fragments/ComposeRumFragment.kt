@@ -26,11 +26,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.astronomyshop.app.splunkrum.SplunkTrackedNavHost
-import com.astronomyshop.app.splunkrum.TrackComposeNavigation
-import com.splunk.rum.integration.agent.api.SplunkRum
-import com.splunk.rum.integration.navigation.extension.navigation
-import com.splunk.rum.integration.webview.extension.webViewNativeBridge
+//import com.astronomyshop.app.splunkrum.SplunkTrackedNavHost
+//import com.astronomyshop.app.splunkrum.TrackComposeNavigation
+//import com.splunk.rum.integration.agent.api.SplunkRum
+//import com.splunk.rum.integration.navigation.extension.navigation
+//import com.splunk.rum.integration.webview.extension.webViewNativeBridge
 import kotlinx.coroutines.flow.collectLatest
 
 class ComposeRumFragment : Fragment() {
@@ -58,8 +58,7 @@ fun MainNavigationContainer() {
 
     // 1. COMPOSE UI TRACKING
     // This automatically detects route changes and sends them to Splunk RUM
-//    TrackNavScreens(navController)
-    TrackComposeNavigation(navController)
+//    TrackComposeNavigation(navController)
 
     val navigateToRoute: (String) -> Unit = { route ->
         navController.navigate(route) {
@@ -149,7 +148,7 @@ fun ComposeWebViewPage(
         factory = { context ->
             WebView(context).apply {
                 configureForRum(onNavigate)
-                SplunkRum.instance.webViewNativeBridge.integrateWithBrowserRum(this)
+//                SplunkRum.instance.webViewNativeBridge.integrateWithBrowserRum(this)
                 loadUrl(url)
             }
         },
